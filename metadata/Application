@@ -7,6 +7,20 @@
     },
     "codeClass": null,
     "userConfig": {
+        "models": [
+            "CollectionTime",
+            "Condition",
+            "Disease",
+            "LabTestsOnline",
+            "Loinc",
+            "Panel",
+            "ServicePromise",
+            "Specialty",
+            "Test"
+        ],
+        "stores": [
+            "LoincStorage"
+        ],
         "name": "MyApp"
     },
     "customConfigs": [],

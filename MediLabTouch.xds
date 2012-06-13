@@ -1,7 +1,7 @@
 {
     "name": "MediLabTouch",
     "settings": {
-        "urlPrefix": "",
+        "urlPrefix": "http://localhost/MediLabTouch",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "",
@@ -18,7 +18,88 @@
     "xdsVersion": "2.0.0",
     "xdsBuild": "442",
     "framework": "touch20",
-    "topInstanceFileMap": {},
+    "topInstanceFileMap": {
+        "978ff78a-20ed-4cd2-b6c1-90fb438ac306": {
+            "paths": [
+                "metadata/model/CollectionTime",
+                "app/model/override/CollectionTime.js",
+                "app/model/CollectionTime.js"
+            ],
+            "className": "CollectionTime"
+        },
+        "20c785ad-4aaf-4efd-ae00-ccc3cbe0e7d5": {
+            "paths": [
+                "metadata/model/Condition",
+                "app/model/override/Condition.js",
+                "app/model/Condition.js"
+            ],
+            "className": "Condition"
+        },
+        "5c066009-b0eb-4bf0-a9e0-a54d71ca65a5": {
+            "paths": [
+                "metadata/model/Disease",
+                "app/model/override/Disease.js",
+                "app/model/Disease.js"
+            ],
+            "className": "Disease"
+        },
+        "af60bea8-15ae-42f3-9204-ed52d20096d1": {
+            "paths": [
+                "metadata/model/LabTestsOnline",
+                "app/model/override/LabTestsOnline.js",
+                "app/model/LabTestsOnline.js"
+            ],
+            "className": "LabTestsOnline"
+        },
+        "af2590c2-d8e6-4ef6-8c63-5d3c428eeeb2": {
+            "paths": [
+                "metadata/model/Loinc",
+                "app/model/override/Loinc.js",
+                "app/model/Loinc.js"
+            ],
+            "className": "Loinc"
+        },
+        "1d22c354-5fcc-42a7-9e3f-b59ee1788ce8": {
+            "paths": [
+                "metadata/model/Panel",
+                "app/model/override/Panel.js",
+                "app/model/Panel.js"
+            ],
+            "className": "Panel"
+        },
+        "33356856-f77f-476d-851f-eef70bae4d52": {
+            "paths": [
+                "metadata/model/ServicePromise",
+                "app/model/override/ServicePromise.js",
+                "app/model/ServicePromise.js"
+            ],
+            "className": "ServicePromise"
+        },
+        "58141c40-b16e-4f65-814a-e2c868aaf36b": {
+            "paths": [
+                "metadata/model/Specialty",
+                "app/model/override/Specialty.js",
+                "app/model/Specialty.js"
+            ],
+            "className": "Specialty"
+        },
+        "5d882ea0-8984-4cf8-8614-c72da5d06262": {
+            "paths": [
+                "metadata/model/Test",
+                "app/model/override/Test.js",
+                "app/model/Test.js"
+            ],
+            "className": "Test"
+        },
+        "1884917b-000a-4957-b651-cbade85ce28b": {
+            "paths": [
+                "metadata/store/LoincStorage",
+                "app/store/override/LoincStorage.js",
+                "app/store/LoincStorage.js"
+            ],
+            "className": "LoincStorage"
+        }
+    },
     "expandedState": {
         "data": true,
         "model": true,
