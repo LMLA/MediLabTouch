@@ -1,0 +1,40 @@
+[
+
+    {
+        "class": "medilabcore.Specialty",
+        "id": 1,
+        "name": "Allergy and Immunology",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Specialty",
+        "id": 2,
+        "name": "Rheumatology",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Specialty",
+        "id": 3,
+        "name": "Obstetrics",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Specialty",
+        "id": 4,
+        "name": "Hematology",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Specialty",
+        "id": 5,
+        "name": "Cardiology",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Specialty",
+        "id": 6,
+        "name": "Oncology",
+        "test": [ ]
+    }
+
+]

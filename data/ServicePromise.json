@@ -1,0 +1,41 @@
+[
+
+    {
+        "class": "medilabcore.ServicePromise",
+        "id": 1,
+        "name": "72 hours",
+        "panel": [
+            {
+                "class": "Panel",
+                "id": 1
+            }
+        ],
+        "test": [
+            {
+                "class": "Test",
+                "id": 3
+            },
+            {
+                "class": "Test",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "class": "medilabcore.ServicePromise",
+        "id": 2,
+        "name": "48 hours",
+        "panel": [ ],
+        "test": [
+            {
+                "class": "Test",
+                "id": 4
+            },
+            {
+                "class": "Test",
+                "id": 2
+            }
+        ]
+    }
+
+]

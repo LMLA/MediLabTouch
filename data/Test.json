@@ -1,0 +1,137 @@
+[
+
+    {
+        "class": "medilabcore.Test",
+        "id": 1,
+        "collectionTime": {
+            "class": "CollectionTime",
+            "id": 1
+        },
+        "condition": [ ],
+        "disease": [ ],
+        "labTestsOnline": {
+            "class": "LabTestsOnline",
+            "id": 2
+        },
+        "lexiCompLab": {
+            "class": "LexiCompLab",
+            "id": 1
+        },
+        "localCode": "123",
+        "loinc": {
+            "class": "LOINC",
+            "id": 2
+        },
+        "name": "Hematocrit",
+        "servicePromise": {
+            "class": "ServicePromise",
+            "id": 1
+        },
+        "specialty": [ ]
+    },
+    {
+        "class": "medilabcore.Test",
+        "id": 2,
+        "collectionTime": {
+            "class": "CollectionTime",
+            "id": 2
+        },
+        "condition": [ ],
+        "disease": [ ],
+        "labTestsOnline": {
+            "class": "LabTestsOnline",
+            "id": 3
+        },
+        "lexiCompLab": {
+            "class": "LexiCompLab",
+            "id": 1
+        },
+        "localCode": "128",
+        "loinc": {
+            "class": "LOINC",
+            "id": 3
+        },
+        "name": "Erythrocytes",
+        "servicePromise": {
+            "class": "ServicePromise",
+            "id": 2
+        },
+        "specialty": [ ]
+    },
+    {
+        "class": "medilabcore.Test",
+        "id": 3,
+        "collectionTime": {
+            "class": "CollectionTime",
+            "id": 1
+        },
+        "condition": [ ],
+        "disease": [ ],
+        "labTestsOnline": {
+            "class": "LabTestsOnline",
+            "id": 4
+        },
+        "lexiCompLab": {
+            "class": "LexiCompLab",
+            "id": 1
+        },
+        "localCode": "129",
+        "loinc": {
+            "class": "LOINC",
+            "id": 4
+        },
+        "name": "Leukocytes",
+        "servicePromise": {
+            "class": "ServicePromise",
+            "id": 1
+        },
+        "specialty": [ ]
+    },
+    {
+        "class": "medilabcore.Test",
+        "id": 4,
+        "collectionTime": {
+            "class": "CollectionTime",
+            "id": 2
+        },
+        "condition": [ ],
+        "disease": [ ],
+        "labTestsOnline": {
+            "class": "LabTestsOnline",
+            "id": 5
+        },
+        "lexiCompLab": {
+            "class": "LexiCompLab",
+            "id": 2
+        },
+        "localCode": "124",
+        "loinc": {
+            "class": "LOINC",
+            "id": 5
+        },
+        "name": "Hemoglobin",
+        "servicePromise": {
+            "class": "ServicePromise",
+            "id": 2
+        },
+        "specialty": [ ]
+    },
+    {
+        "class": "medilabcore.Test",
+        "id": 5,
+        "collectionTime": null,
+        "condition": [ ],
+        "disease": [ ],
+        "labTestsOnline": null,
+        "lexiCompLab": null,
+        "localCode": "2517",
+        "loinc": {
+            "class": "LOINC",
+            "id": 103
+        },
+        "name": "CATECOLAMINAS TOTALES (EPIN +NORE)",
+        "servicePromise": null,
+        "specialty": [ ]
+    }
+
+]

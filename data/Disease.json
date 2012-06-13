@@ -1,0 +1,28 @@
+[
+
+    {
+        "class": "medilabcore.Disease",
+        "id": 1,
+        "name": "Kidney disorders",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Disease",
+        "id": 2,
+        "name": "Diabetes",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Disease",
+        "id": 3,
+        "name": "Liver disease",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Disease",
+        "id": 4,
+        "name": "Hyponatremia",
+        "test": [ ]
+    }
+
+]

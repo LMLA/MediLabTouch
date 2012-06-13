@@ -1,0 +1,41 @@
+[
+
+    {
+        "class": "medilabcore.CollectionTime",
+        "id": 1,
+        "name": "From 8am to 12 pm",
+        "panel": [
+            {
+                "class": "Panel",
+                "id": 1
+            }
+        ],
+        "test": [
+            {
+                "class": "Test",
+                "id": 1
+            },
+            {
+                "class": "Test",
+                "id": 3
+            }
+        ]
+    },
+    {
+        "class": "medilabcore.CollectionTime",
+        "id": 2,
+        "name": "From 6am to 10am",
+        "panel": [ ],
+        "test": [
+            {
+                "class": "Test",
+                "id": 2
+            },
+            {
+                "class": "Test",
+                "id": 4
+            }
+        ]
+    }
+
+]

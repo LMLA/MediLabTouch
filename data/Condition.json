@@ -1,0 +1,22 @@
+[
+
+    {
+        "class": "medilabcore.Condition",
+        "id": 1,
+        "name": "Diabetes",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Condition",
+        "id": 2,
+        "name": "Osteoporosis",
+        "test": [ ]
+    },
+    {
+        "class": "medilabcore.Condition",
+        "id": 3,
+        "name": "Pregnancy",
+        "test": [ ]
+    }
+
+]
