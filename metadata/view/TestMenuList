@@ -1,0 +1,20 @@
+{
+    "id": "ExtBox1-ext-gen35644",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "testMenuList",
+        "itemTpl": "<div>List Item {string}</div>",
+        "store": "testMenuArrayStore",
+        "designer|userClassName": "TestMenuList",
+        "designer|userAlias": "testmenulist"
+    },
+    "customConfigs": [],
+    "designerId": "57c3ed0f-ffee-4dcc-ab53-46ef7ca3e743",
+    "$viewOrder": 8,
+    "expanded": true
+}

@@ -1,0 +1,21 @@
+{
+    "id": "ExtBox1-ext-gen31089",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "testPortfolioList",
+        "width": "100%",
+        "itemTpl": "<div>{test}</div>",
+        "store": "testJsonStore",
+        "designer|userClassName": "TestPortfolioList",
+        "designer|userAlias": "testportfoliolist"
+    },
+    "customConfigs": [],
+    "designerId": "3045a1d5-3234-48fe-94b6-c902174874f9",
+    "$viewOrder": 7,
+    "expanded": true
+}

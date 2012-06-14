@@ -1,0 +1,69 @@
+{
+    "id": "ExtBox1-ext-gen15528",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginFormController",
+        "designer|userAlias": "loginformcontroller"
+    },
+    "customConfigs": [],
+    "designerId": "8585c485-eb08-4947-a2c4-ce97f37ea394",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen15739",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "loginformpanel",
+                "selector": "loginformpanel",
+                "designer|userClassName": "loginformpanel"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen16337",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLoginMenuListDisclose",
+                "implHandler": [
+                    "//alert(\"The Login Menu list has been disclosed\");",
+                    "switch(index) {",
+                    "            case 0:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'myPatients'});",
+                    "            break;",
+                    "",
+                    "            case 1:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'newOrder'});",
+                    "            break;",
+                    "",
+                    "            case 2:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'homepanel'});",
+                    "        }",
+                    ""
+                ],
+                "name": "disclose",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#loginMenuList",
+                "designer|userClassName": "onLoginMenuListDisclose"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

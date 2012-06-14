@@ -1,5 +1,5 @@
 {
-    "id": "ExtBox1-ext-gen21820",
+    "id": "ExtBox1-ext-gen36031",
     "type": "datamodel",
     "reference": {
         "name": "items",
@@ -7,16 +7,16 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "PhysicianMenuModel",
-        "designer|userAlias": "physicianmenumodel"
+        "designer|userClassName": "TestMenuModel",
+        "designer|userAlias": "testmenumodel"
     },
     "customConfigs": [],
-    "designerId": "85aabd90-4d01-4a4f-a08a-80e23a931fd7",
-    "$viewOrder": 0,
+    "designerId": "8f1dae0e-449d-4386-bae3-59a6d6f55f25",
+    "$viewOrder": 2,
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen22959",
+            "id": "ExtBox1-ext-gen36035",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -26,7 +26,7 @@
             "userConfig": {
                 "name": "option",
                 "type": "string",
-                "designer|userClassName": "MyField"
+                "designer|userClassName": "MyField1"
             },
             "customConfigs": [],
             "expanded": true

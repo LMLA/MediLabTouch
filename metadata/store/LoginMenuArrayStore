@@ -1,0 +1,21 @@
+{
+    "id": "ExtBox1-ext-gen5617",
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "data": "[ {option: \"New user?\"}, {option: \"Demo patient\"}, {option: \"Demo physician\"} ]",
+        "model": "LoginMenuModel",
+        "storeId": "loginMenuArrayStore",
+        "designer|userClassName": "LoginMenuArrayStore",
+        "designer|userAlias": "loginmenuarraystore"
+    },
+    "customConfigs": [],
+    "designerId": "effd768d-402b-4b5e-85d5-0c4e5ddff43d",
+    "$viewOrder": 0,
+    "expanded": true
+}

@@ -1,24 +1,25 @@
 {
-    "id": "ExtBox1-ext-gen21137",
-    "type": "treestore",
+    "id": "ExtBox1-ext-gen31706",
+    "type": "jsonstore",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "model": "PhysicianMenuModel",
-        "storeId": "PhysicianMenuTreeStore",
-        "designer|userClassName": "PhysicianMenuTreeStore",
-        "designer|userAlias": "physicianmenutreestore"
+        "autoLoad": true,
+        "model": "TestModel",
+        "storeId": "testJsonStore",
+        "designer|userClassName": "TestJsonStore",
+        "designer|userAlias": "testjsonstore"
     },
     "customConfigs": [],
-    "designerId": "d9b7284c-7595-4444-ba9d-0135b5be81a4",
-    "$viewOrder": 0,
+    "designerId": "7fb6e2bf-79b4-41aa-94b6-a2770efad6ba",
+    "$viewOrder": 3,
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen21144",
+            "id": "ExtBox1-ext-gen31713",
             "type": "ajaxproxy",
             "reference": {
                 "name": "proxy",
@@ -26,14 +27,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "physicianmenu.json",
+                "url": "tests.json",
                 "designer|userClassName": "MyAjaxProxy"
             },
             "customConfigs": [],
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen21151",
+                    "id": "ExtBox1-ext-gen31720",
                     "type": "jsonreader",
                     "reference": {
                         "name": "reader",
@@ -41,7 +42,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "rootProperty": "items",
+                        "rootProperty": "tests",
                         "designer|userClassName": "MyJsonReader"
                     },
                     "customConfigs": [],

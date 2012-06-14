@@ -8,19 +8,34 @@
     "codeClass": null,
     "userConfig": {
         "models": [
-            "PhysicianMenuModel"
+            "PhysicianMenuModel",
+            "LoginMenuModel",
+            "TestModel",
+            "TestMenuModel"
         ],
         "stores": [
-            "PhysicianMenuTreeStore"
+            "LoginMenuArrayStore",
+            "PhysicianMenuArrayStore",
+            "TestJsonStore",
+            "TestMenuArrayStore"
         ],
         "views": [
             "HomePanel",
             "Account",
             "Contact",
             "Help",
-            "HomePhysicianNestedList"
+            "LoginFormPanel",
+            "PhysicianMenuContainer",
+            "TestPortfolioView",
+            "TestPortfolioList",
+            "TestMenuList"
         ],
-        "name": "MediLab"
+        "name": "MediLab",
+        "controllers": [
+            "LoginFormController",
+            "PhysicianMenuController",
+            "TestMenuController"
+        ]
     },
     "customConfigs": [],
     "designerId": "application",
@@ -40,7 +55,7 @@
                 "fn": "launch",
                 "implHandler": [
                     "Ext.Viewport.add({",
-                    "    xclass: 'MediLab.view.HomePanel'",
+                    "    xclass: 'MediLab.view.LoginFormPanel'",
                     "});",
                     ""
                 ],

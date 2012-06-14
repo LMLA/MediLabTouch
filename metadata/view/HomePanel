@@ -7,7 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
+        "id": "homePanel",
         "tpl": null,
         "defaults": "{html: 'This is a placeholder text',\nstyleHtmlContent: true}\n",
         "designer|userClassName": "HomePanel",
@@ -16,8 +16,8 @@
     },
     "customConfigs": [],
     "designerId": "55f7aa84-f963-470a-a013-72a8579dcf61",
-    "$viewOrder": 0,
-    "expanded": true,
+    "$viewOrder": 1,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen6654",
@@ -38,7 +38,7 @@
             "expanded": true
         },
         {
-            "id": "ExtBox1-ext-gen18856",
+            "id": "ExtBox1-ext-gen24295",
             "type": "linkedinstance",
             "reference": {
                 "name": "items",
@@ -52,7 +52,7 @@
             "customConfigs": [],
             "iconCls": "icon-linkedinstance",
             "expanded": true,
-            "masterInstanceId": "ExtBox1-ext-gen18140"
+            "masterInstanceId": "ExtBox1-ext-gen21914"
         },
         {
             "id": "ExtBox1-ext-gen13304",

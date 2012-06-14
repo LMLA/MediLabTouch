@@ -1,0 +1,73 @@
+{
+    "id": "ExtBox1-ext-gen33109",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PhysicianMenuController",
+        "designer|userAlias": "physicianmenucontroller"
+    },
+    "customConfigs": [],
+    "designerId": "2a89b976-c720-4971-b577-a890dc3b71c8",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen33531",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "testmenulist",
+                "selector": "testmenulist",
+                "designer|userClassName": "testmenulist"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen33924",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTestMenuListDisclose",
+                "implHandler": [
+                    "alert(\"The Test Menu list has been disclosed\");",
+                    "        switch(index) {",
+                    "            case 0:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'mypatientslist'});",
+                    "            break;",
+                    "",
+                    "            case 1:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'neworderslist'});",
+                    "            break;",
+                    "",
+                    "            case 2:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'pendingorderslist'});",
+                    "            break;",
+                    "                ",
+                    "            case 3:",
+                    "            Ext.Viewport.setActiveItem({xtype: 'testmenulist'});",
+                    "        }",
+                    ""
+                ],
+                "name": "disclose",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#testMenuList",
+                "designer|userClassName": "onTestMenuListDisclose"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -19,26 +19,41 @@ Ext.Loader.setConfig({
 
 Ext.application({
     models: [
-        'PhysicianMenuModel'
+        'PhysicianMenuModel',
+        'LoginMenuModel',
+        'TestModel',
+        'TestMenuModel'
     ],
     stores: [
-        'PhysicianMenuTreeStore'
+        'LoginMenuArrayStore',
+        'PhysicianMenuArrayStore',
+        'TestJsonStore',
+        'TestMenuArrayStore'
     ],
     views: [
         'HomePanel',
         'Account',
         'Contact',
         'Help',
-        'HomePhysicianNestedList'
+        'LoginFormPanel',
+        'PhysicianMenuContainer',
+        'TestPortfolioView',
+        'TestPortfolioList',
+        'TestMenuList'
     ],
     name: 'MediLab',
+    controllers: [
+        'LoginFormController',
+        'PhysicianMenuController',
+        'TestMenuController'
+    ],
 
     launch: function() {
         Ext.Viewport.add({
-            xclass: 'MediLab.view.HomePanel'
+            xclass: 'MediLab.view.LoginFormPanel'
         });
 
-        Ext.create('MediLab.view.HomePanel', {fullscreen: true});
+        Ext.create('MediLab.view.LoginFormPanel', {fullscreen: true});
     }
 
 });

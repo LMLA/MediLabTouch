@@ -1,0 +1,21 @@
+{
+    "id": "ExtBox1-ext-gen36312",
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "data": "[ {option: \"By Name\"}, {option: \"By Keyword\"}, {option: \"By Specialty\"},  {option: \"By Condition\"}, {option: \"By Disease\"}  ]\n",
+        "model": "TestMenuModel",
+        "storeId": "testMenuArrayStore",
+        "designer|userClassName": "TestMenuArrayStore",
+        "designer|userAlias": "testmenuarraystore"
+    },
+    "customConfigs": [],
+    "designerId": "6340502f-b966-4e52-bafc-19955c0524f3",
+    "$viewOrder": 2,
+    "expanded": true
+}

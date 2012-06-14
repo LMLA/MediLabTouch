@@ -17,13 +17,14 @@ Ext.define('MediLab.view.HomePanel', {
     extend: 'Ext.tab.Panel',
     alias: 'widget.homepanel',
     requires: [
-        'MediLab.view.HomePhysicianNestedList',
+        'MediLab.view.PhysicianMenuContainer',
         'MediLab.view.Account',
         'MediLab.view.Contact',
         'MediLab.view.Help'
     ],
 
     config: {
+        id: 'homePanel',
         defaults: {
             html: 'This is a placeholder text',
             styleHtmlContent: true
@@ -42,7 +43,7 @@ Ext.define('MediLab.view.HomePanel', {
         },
         items: [
             {
-                xtype: 'homephysiciannestedlist',
+                xtype: 'physicianmenucontainer',
                 title: 'Home',
                 iconCls: 'home'
             },

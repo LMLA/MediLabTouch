@@ -1,0 +1,21 @@
+{
+    "id": "ExtBox1-ext-gen20625",
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "data": "[ {option: \"My patients\"}, {option: \"New order\"}, {option: \"Pending orders\"},  {option: \"Test portfolio\"} ]",
+        "model": "PhysicianMenuModel",
+        "storeId": "physicianMenuArrayStore",
+        "designer|userClassName": "PhysicianMenuArrayStore",
+        "designer|userAlias": "physicianmenuarraystore"
+    },
+    "customConfigs": [],
+    "designerId": "3b34609c-b545-48ea-a437-b32e8626d4f9",
+    "$viewOrder": 1,
+    "expanded": true
+}
