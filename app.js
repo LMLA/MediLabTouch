@@ -19,18 +19,26 @@ Ext.Loader.setConfig({
 
 Ext.application({
     models: [
-        'CollectionTime',
-        'Condition',
-        'Disease',
-        'LabTestsOnline',
-        'Loinc',
-        'Panel',
-        'ServicePromise',
-        'Specialty',
-        'Test'
+        'PhysicianMenuModel'
     ],
     stores: [
-        'LoincStorage'
+        'PhysicianMenuTreeStore'
     ],
-    name: 'MyApp'
+    views: [
+        'HomePanel',
+        'Account',
+        'Contact',
+        'Help',
+        'HomePhysicianNestedList'
+    ],
+    name: 'MediLab',
+
+    launch: function() {
+        Ext.Viewport.add({
+            xclass: 'MediLab.view.HomePanel'
+        });
+
+        Ext.create('MediLab.view.HomePanel', {fullscreen: true});
+    }
+
 });

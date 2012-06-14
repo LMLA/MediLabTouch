@@ -1,0 +1,35 @@
+{
+    "id": "ExtBox1-ext-gen6117",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Help",
+        "designer|userAlias": "help"
+    },
+    "customConfigs": [],
+    "designerId": "8adf982d-8a80-49f8-ab3d-8e57bac2cc05",
+    "$viewOrder": 3,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen10887",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Help",
+                "designer|userClassName": "MyToolbar3"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

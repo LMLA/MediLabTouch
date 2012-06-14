@@ -1,41 +1,39 @@
 {
-    "id": "ExtBox1-ext-gen24658",
-    "type": "jsonpstore",
+    "id": "ExtBox1-ext-gen21137",
+    "type": "treestore",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": true,
-        "model": "Loinc",
-        "storeId": "loincStorage",
-        "designer|userClassName": "LoincStorage",
-        "designer|userAlias": "loincStorage"
+        "model": "PhysicianMenuModel",
+        "storeId": "PhysicianMenuTreeStore",
+        "designer|userClassName": "PhysicianMenuTreeStore",
+        "designer|userAlias": "physicianmenutreestore"
     },
     "customConfigs": [],
-    "designerId": "1884917b-000a-4957-b651-cbade85ce28b",
+    "designerId": "d9b7284c-7595-4444-ba9d-0135b5be81a4",
     "$viewOrder": 0,
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen24665",
-            "type": "jsonpproxy",
+            "id": "ExtBox1-ext-gen21144",
+            "type": "ajaxproxy",
             "reference": {
                 "name": "proxy",
                 "type": "object"
             },
             "codeClass": null,
             "userConfig": {
-                "url": "http://localhost/MediLabTouch/data/loinc.json",
-                "recordParam": null,
-                "designer|userClassName": "MyJsonPProxy"
+                "url": "physicianmenu.json",
+                "designer|userClassName": "MyAjaxProxy"
             },
             "customConfigs": [],
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen24672",
+                    "id": "ExtBox1-ext-gen21151",
                     "type": "jsonreader",
                     "reference": {
                         "name": "reader",
@@ -43,6 +41,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "rootProperty": "items",
                         "designer|userClassName": "MyJsonReader"
                     },
                     "customConfigs": [],
