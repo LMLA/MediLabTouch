@@ -20,10 +20,15 @@ Ext.define('MediLab.view.TestPortfolioList', {
     config: {
         id: 'testPortfolioList',
         width: '100%',
-        store: 'testJsonStore',
+        store: 'testTemp',
+        grouped: true,
+        onItemDisclosure: true,
         itemTpl: [
             '<div>{test}</div>'
-        ]
+        ],
+        indexBar: {
+            id: 'testsByNameIndexBar'
+        }
     }
 
 });

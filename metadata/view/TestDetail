@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen59213",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "html": "This is the test content",
+        "id": null,
+        "styleHtmlContent": true,
+        "tpl": "This is the {test} detailed information.",
+        "scrollable": "vertical",
+        "designer|userClassName": "TestDetail",
+        "designer|userAlias": "testdetail"
+    },
+    "customConfigs": [],
+    "designerId": "ea2ff6bb-0c60-43a6-9fcd-7e2daa10080a",
+    "$viewOrder": 8,
+    "expanded": true
+}

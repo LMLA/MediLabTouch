@@ -23,12 +23,12 @@ Ext.define('MediLab.controller.LoginFormController', {
 
         control: {
             "#loginMenuList": {
-                disclose: 'onLoginMenuListDisclose'
+                disclose: 'onLoginMenuListDisclosure'
             }
         }
     },
 
-    onLoginMenuListDisclose: function(list, record, target, index, e, options) {
+    onLoginMenuListDisclosure: function(list, record, target, index, e, options) {
         //alert("The Login Menu list has been disclosed");
         switch(index) {
             case 0:

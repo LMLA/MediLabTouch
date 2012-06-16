@@ -10,12 +10,31 @@
         "id": "testPortfolioList",
         "width": "100%",
         "itemTpl": "<div>{test}</div>",
-        "store": "testJsonStore",
+        "store": "testTemp",
+        "grouped": true,
+        "onItemDisclosure": true,
         "designer|userClassName": "TestPortfolioList",
         "designer|userAlias": "testportfoliolist"
     },
     "customConfigs": [],
     "designerId": "3045a1d5-3234-48fe-94b6-c902174874f9",
-    "$viewOrder": 7,
-    "expanded": true
+    "$viewOrder": 9,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen52832",
+            "type": "listindexbar",
+            "reference": {
+                "name": "indexBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "testsByNameIndexBar",
+                "designer|userClassName": "MyIndexBar"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
 }

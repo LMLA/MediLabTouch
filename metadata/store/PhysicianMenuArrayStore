@@ -8,7 +8,7 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
-        "data": "[ {option: \"My patients\"}, {option: \"New order\"}, {option: \"Pending orders\"},  {option: \"Test portfolio\"} ]",
+        "data": "[ {option: \"My patients\"}, {option: \"New order\"}, {option: \"Pending orders\"},  {option: \"Test portfolio\"}, {option: \"Logout\"}  ]",
         "model": "PhysicianMenuModel",
         "storeId": "physicianMenuArrayStore",
         "designer|userClassName": "PhysicianMenuArrayStore",

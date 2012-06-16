@@ -8,11 +8,11 @@
     "codeClass": null,
     "userConfig": {
         "designer|userClassName": "TestModel",
-        "designer|userAlias": "tesmodel"
+        "designer|userAlias": "testmodel"
     },
     "customConfigs": [],
     "designerId": "ae9c5cf8-07ad-4751-b5e5-20fad83694b6",
-    "$viewOrder": 3,
+    "$viewOrder": 4,
     "expanded": true,
     "cn": [
         {
@@ -27,6 +27,26 @@
                 "name": "test",
                 "type": "string",
                 "designer|userClassName": "MyField1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen5792",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "testName",
+                "implHandler": [
+                    "var d = this.data,",
+                    "    name = d.test;",
+                    "return name;"
+                ],
+                "designer|userClassName": "testName"
             },
             "customConfigs": [],
             "expanded": true

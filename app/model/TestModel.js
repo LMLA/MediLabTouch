@@ -15,7 +15,7 @@
 
 Ext.define('MediLab.model.TestModel', {
     extend: 'Ext.data.Model',
-    alias: 'model.tesmodel',
+    alias: 'model.testmodel',
     config: {
         fields: [
             {
@@ -23,5 +23,12 @@ Ext.define('MediLab.model.TestModel', {
                 type: 'string'
             }
         ]
+    },
+
+    testName: function() {
+        var d = this.data,
+            name = d.test;
+        return name;
     }
+
 });

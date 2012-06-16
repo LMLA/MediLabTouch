@@ -22,13 +22,15 @@ Ext.application({
         'PhysicianMenuModel',
         'LoginMenuModel',
         'TestModel',
-        'TestMenuModel'
+        'TestMenuModel',
+        'TestTempModel'
     ],
     stores: [
         'LoginMenuArrayStore',
         'PhysicianMenuArrayStore',
         'TestJsonStore',
-        'TestMenuArrayStore'
+        'TestMenuArrayStore',
+        'TestTemp'
     ],
     views: [
         'HomePanel',
@@ -38,14 +40,16 @@ Ext.application({
         'LoginFormPanel',
         'PhysicianMenuContainer',
         'TestPortfolioView',
-        'TestPortfolioList',
-        'TestMenuList'
+        'TestMenuList',
+        'TestDetail',
+        'TestPortfolioList'
     ],
     name: 'MediLab',
     controllers: [
         'LoginFormController',
         'PhysicianMenuController',
-        'TestMenuController'
+        'TestMenuController',
+        'TestPortfolioController'
     ],
 
     launch: function() {

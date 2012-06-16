@@ -8,13 +8,33 @@
     "codeClass": null,
     "userConfig": {
         "id": "testMenuList",
-        "itemTpl": "<div>List Item {string}</div>",
+        "ui": "round",
+        "itemTpl": "<div>{option}</div>",
         "store": "testMenuArrayStore",
+        "onItemDisclosure": true,
         "designer|userClassName": "TestMenuList",
         "designer|userAlias": "testmenulist"
     },
     "customConfigs": [],
     "designerId": "57c3ed0f-ffee-4dcc-ab53-46ef7ca3e743",
-    "$viewOrder": 8,
-    "expanded": true
+    "$viewOrder": 7,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen73525",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Test Portfolio",
+                "designer|userClassName": "MyTitleBar2"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
 }

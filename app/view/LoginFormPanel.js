@@ -18,7 +18,6 @@ Ext.define('MediLab.view.LoginFormPanel', {
     alias: 'widget.loginformpanel',
 
     config: {
-        id: 'loginFormPanel',
         items: [
             {
                 xtype: 'titlebar',
@@ -27,23 +26,19 @@ Ext.define('MediLab.view.LoginFormPanel', {
             },
             {
                 xtype: 'fieldset',
-                id: 'LoginFieldSet',
                 width: '100%',
                 items: [
                     {
                         xtype: 'textfield',
-                        id: 'loginUserName',
                         label: '',
                         placeHolder: 'User name'
                     },
                     {
                         xtype: 'textfield',
-                        id: 'loginPassword',
                         placeHolder: 'Password'
                     },
                     {
                         xtype: 'button',
-                        id: 'loginButton',
                         text: 'Login'
                     }
                 ]

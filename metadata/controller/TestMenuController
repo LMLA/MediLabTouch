@@ -13,5 +13,65 @@
     "customConfigs": [],
     "designerId": "7080d2bc-6fea-46b4-83bd-860b72da2421",
     "$viewOrder": 2,
-    "expanded": true
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen45582",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTestMenuListDisclosure",
+                "implHandler": [
+                    "//alert(\"The Test Portfolio list has been disclosed\");",
+                    "switch(index) {",
+                    "    case 0:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'testportfolioview'});",
+                    "    break;",
+                    "",
+                    "    case 1:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'bykeywordlist'});",
+                    "    break;",
+                    "",
+                    "    case 2:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'byspecialtylist'});",
+                    "    break;",
+                    "",
+                    "    case 3:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'byconditionlist'});",
+                    "    break;",
+                    "",
+                    "    case 4:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'bydiseaselist'});",
+                    "",
+                    "}"
+                ],
+                "name": "disclose",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#testMenuList",
+                "designer|userClassName": "onTestMenuListDisclosure"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen45695",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "testportfolioview",
+                "selector": "testportfolioview",
+                "designer|userClassName": "testportfolioview"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
 }

@@ -17,5 +17,40 @@ Ext.define('MediLab.controller.TestMenuController', {
     extend: 'Ext.app.Controller',
     alias: 'controller.testmenucontroller',
     config: {
+        refs: {
+            testportfolioview: 'testportfolioview'
+        },
+
+        control: {
+            "#testMenuList": {
+                disclose: 'onTestMenuListDisclosure'
+            }
+        }
+    },
+
+    onTestMenuListDisclosure: function(list, record, target, index, e, options) {
+        //alert("The Test Portfolio list has been disclosed");
+        switch(index) {
+            case 0:
+            Ext.Viewport.setActiveItem({xtype: 'testportfolioview'});
+            break;
+
+            case 1:
+            Ext.Viewport.setActiveItem({xtype: 'bykeywordlist'});
+            break;
+
+            case 2:
+            Ext.Viewport.setActiveItem({xtype: 'byspecialtylist'});
+            break;
+
+            case 3:
+            Ext.Viewport.setActiveItem({xtype: 'byconditionlist'});
+            break;
+
+            case 4:
+            Ext.Viewport.setActiveItem({xtype: 'bydiseaselist'});
+
+        }
     }
+
 });

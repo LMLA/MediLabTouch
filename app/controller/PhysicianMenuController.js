@@ -18,18 +18,18 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
     alias: 'controller.physicianmenucontroller',
     config: {
         refs: {
-            testmenulist: 'testmenulist'
+            physicianmenulist: 'physicianmenulist'
         },
 
         control: {
-            "#testMenuList": {
-                disclose: 'onTestMenuListDisclose'
+            "#physicianMenuList": {
+                disclose: 'onPhysicianMenuListDisclosure'
             }
         }
     },
 
-    onTestMenuListDisclose: function(list, record, target, index, e, options) {
-        alert("The Test Menu list has been disclosed");
+    onPhysicianMenuListDisclosure: function(list, record, target, index, e, options) {
+        //alert("The Physician Menu list has been disclosed");
         switch(index) {
             case 0:
             Ext.Viewport.setActiveItem({xtype: 'mypatientslist'});
@@ -45,6 +45,11 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
 
             case 3:
             Ext.Viewport.setActiveItem({xtype: 'testmenulist'});
+            break;
+
+            case 4:
+            Ext.Viewport.setActiveItem({xtype: 'loginformpanel'});
+
         }
 
     }

@@ -40,27 +40,27 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "onLoginMenuListDisclose",
+                "fn": "onLoginMenuListDisclosure",
                 "implHandler": [
                     "//alert(\"The Login Menu list has been disclosed\");",
                     "switch(index) {",
-                    "            case 0:",
-                    "            Ext.Viewport.setActiveItem({xtype: 'myPatients'});",
-                    "            break;",
+                    "    case 0:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'myPatients'});",
+                    "    break;",
                     "",
-                    "            case 1:",
-                    "            Ext.Viewport.setActiveItem({xtype: 'newOrder'});",
-                    "            break;",
+                    "    case 1:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'newOrder'});",
+                    "    break;",
                     "",
-                    "            case 2:",
-                    "            Ext.Viewport.setActiveItem({xtype: 'homepanel'});",
-                    "        }",
+                    "    case 2:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'homepanel'});",
+                    "}",
                     ""
                 ],
                 "name": "disclose",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#loginMenuList",
-                "designer|userClassName": "onLoginMenuListDisclose"
+                "designer|userClassName": "onLoginMenuListDisclosure"
             },
             "customConfigs": [],
             "expanded": true
