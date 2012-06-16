@@ -16,8 +16,23 @@
 Ext.define('MediLab.view.TestPortfolioView', {
     extend: 'Ext.navigation.View',
     alias: 'widget.testportfolioview',
+    requires: [
+        'MediLab.view.TestDetail',
+        'MediLab.view.TestPortfolioList'
+    ],
 
     config: {
+        id: 'testPortfolioView',
+        items: [
+            {
+                xtype: 'testdetail',
+                title: 'Test Detail'
+            },
+            {
+                xtype: 'testportfoliolist',
+                title: 'Test Portfolio List'
+            }
+        ]
     }
 
 });

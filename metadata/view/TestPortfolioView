@@ -7,11 +7,48 @@
     },
     "codeClass": null,
     "userConfig": {
+        "id": "testPortfolioView",
         "designer|userClassName": "TestPortfolioView",
-        "designer|userAlias": "testportfolioview"
+        "designer|userAlias": "testportfolioview",
+        "container|animation": null
     },
     "customConfigs": [],
     "designerId": "b2300abf-4573-4fea-877e-539c64d99520",
     "$viewOrder": 6,
-    "expanded": true
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen80250",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": null,
+                "title": "Test Detail"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen59213"
+        },
+        {
+            "id": "ExtBox1-ext-gen4588",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Test Portfolio List"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen31089"
+        }
+    ]
 }
