@@ -10,7 +10,7 @@
         "html": "This is the test content",
         "id": null,
         "styleHtmlContent": true,
-        "tpl": "This is the {test} detailed information.",
+        "tpl": "This is the {name} detailed information.\nThe LOINC information is: {loinc.longName}",
         "scrollable": "vertical",
         "designer|userClassName": "TestDetail",
         "designer|userAlias": "testdetail"

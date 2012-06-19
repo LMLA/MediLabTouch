@@ -19,8 +19,38 @@ Ext.define('MediLab.model.TestModel', {
     config: {
         fields: [
             {
-                name: 'test',
-                type: 'string'
+                name: 'id',
+                type: 'int'
+            },
+            {
+                name: 'name'
+            },
+            {
+                name: 'localCode'
+            },
+            {
+                name: 'loinc'
+            },
+            {
+                name: 'collectionTime'
+            },
+            {
+                name: 'servicePromise'
+            },
+            {
+                name: 'lexiCompLab'
+            },
+            {
+                name: 'labTestsOnline'
+            },
+            {
+                name: 'specialty'
+            },
+            {
+                name: 'disease'
+            },
+            {
+                name: 'condition'
             }
         ]
     },

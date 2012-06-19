@@ -115,14 +115,6 @@
             ],
             "className": "TestPortfolioView"
         },
-        "7fb6e2bf-79b4-41aa-94b6-a2770efad6ba": {
-            "paths": [
-                "metadata/store/TestJsonStore",
-                "app/store/override/TestJsonStore.js",
-                "app/store/TestJsonStore.js"
-            ],
-            "className": "TestJsonStore"
-        },
         "ae9c5cf8-07ad-4751-b5e5-20fad83694b6": {
             "paths": [
                 "metadata/model/TestModel",
@@ -210,6 +202,38 @@
                 "app/view/TestPortfolioList.js"
             ],
             "className": "TestPortfolioList"
+        },
+        "30083432-c620-481e-9032-19f148156c48": {
+            "paths": [
+                "metadata/model/SpecialtyModel",
+                "app/model/override/SpecialtyModel.js",
+                "app/model/SpecialtyModel.js"
+            ],
+            "className": "SpecialtyModel"
+        },
+        "3bc1e66e-6616-4c15-89dd-89edd932b9ea": {
+            "paths": [
+                "metadata/model/ConditionModel",
+                "app/model/override/ConditionModel.js",
+                "app/model/ConditionModel.js"
+            ],
+            "className": "ConditionModel"
+        },
+        "b591cecf-75bf-4805-b5fd-fc5f57547d94": {
+            "paths": [
+                "metadata/model/DiseaseModel",
+                "app/model/override/DiseaseModel.js",
+                "app/model/DiseaseModel.js"
+            ],
+            "className": "DiseaseModel"
+        },
+        "31f31eef-46ea-451e-a396-92a581bebe79": {
+            "paths": [
+                "metadata/store/TestStore",
+                "app/store/override/TestStore.js",
+                "app/store/TestStore.js"
+            ],
+            "className": "TestStore"
         }
     },
     "expandedState": {

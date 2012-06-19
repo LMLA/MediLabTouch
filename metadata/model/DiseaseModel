@@ -1,0 +1,49 @@
+{
+    "id": "ExtBox1-ext-gen6624",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DiseaseModel"
+    },
+    "customConfigs": [],
+    "designerId": "b591cecf-75bf-4805-b5fd-fc5f57547d94",
+    "$viewOrder": 7,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6808",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": "int",
+                "designer|userClassName": "MyField19"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen6965",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField20"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -9,8 +9,8 @@
     "userConfig": {
         "id": "testPortfolioList",
         "width": "100%",
-        "itemTpl": "<div>{test}</div>",
-        "store": "testTemp",
+        "itemTpl": "<div>{name}</div>",
+        "store": "testStore",
         "grouped": true,
         "onItemDisclosure": true,
         "designer|userClassName": "TestPortfolioList",

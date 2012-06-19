@@ -23,14 +23,17 @@ Ext.application({
         'LoginMenuModel',
         'TestModel',
         'TestMenuModel',
-        'TestTempModel'
+        'TestTempModel',
+        'SpecialtyModel',
+        'ConditionModel',
+        'DiseaseModel'
     ],
     stores: [
         'LoginMenuArrayStore',
         'PhysicianMenuArrayStore',
-        'TestJsonStore',
         'TestMenuArrayStore',
-        'TestTemp'
+        'TestTemp',
+        'TestStore'
     ],
     views: [
         'HomePanel',
