@@ -27,7 +27,7 @@
             "codeClass": null,
             "userConfig": {
                 "docked": "top",
-                "title": "MediLab Touch",
+                "title": "MediLab Touch iOS",
                 "designer|userClassName": "MyTitleBar"
             },
             "customConfigs": [],
