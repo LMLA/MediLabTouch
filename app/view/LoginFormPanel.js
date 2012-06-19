@@ -22,7 +22,7 @@ Ext.define('MediLab.view.LoginFormPanel', {
             {
                 xtype: 'titlebar',
                 docked: 'top',
-                title: 'MediLab Touch iOS'
+                title: 'MediLab Touch Nicolas '
             },
             {
                 xtype: 'fieldset',
