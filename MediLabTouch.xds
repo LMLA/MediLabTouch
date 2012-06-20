@@ -1,7 +1,7 @@
 {
     "name": "MediLabTouch",
     "settings": {
-        "urlPrefix": "http://192.168.1.13/~nicolasechavarria/sencha/MediLabTouch/",
+        "urlPrefix": "http://localhost/MediLabTouch/",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "",
@@ -234,11 +234,27 @@
                 "app/store/TestStore.js"
             ],
             "className": "TestStore"
+        },
+        "2494056e-8eb2-401d-9ab9-1aef1398086a": {
+            "paths": [
+                "metadata/view/ByKeyWordList",
+                "app/view/override/ByKeyWordList.js",
+                "app/view/ByKeyWordList.js"
+            ],
+            "className": "ByKeyWordList"
+        },
+        "61654664-501e-4837-b9f0-398e259f7331": {
+            "paths": [
+                "metadata/controller/ByKeyWordFormController",
+                "app/controller/override/ByKeyWordFormController.js",
+                "app/controller/ByKeyWordFormController.js"
+            ],
+            "className": "ByKeyWordFormController"
         }
     },
     "expandedState": {
         "data": true,
-        "model": true,
+        "model": false,
         "component": true,
         "controller": true,
         "resource": true

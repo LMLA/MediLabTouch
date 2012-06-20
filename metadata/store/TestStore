@@ -28,7 +28,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "data/test.json",
+                "url": "data/Test.json",
                 "designer|userClassName": "MyAjaxProxy1"
             },
             "customConfigs": [],

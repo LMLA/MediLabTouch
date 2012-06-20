@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "id": null,
         "designer|userClassName": "LoginFormPanel",
         "designer|userAlias": "loginformpanel"
@@ -15,7 +14,7 @@
     "customConfigs": [],
     "designerId": "f77d2980-9929-4500-99b5-ed98952e05b9",
     "$viewOrder": 0,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen3342",
@@ -27,7 +26,7 @@
             "codeClass": null,
             "userConfig": {
                 "docked": "top",
-                "title": "MediLab Touch Jaime Alvarez ",
+                "title": "MediLab Touch Jaime ",
                 "designer|userClassName": "MyTitleBar"
             },
             "customConfigs": [],
@@ -48,7 +47,7 @@
                 "designer|userClassName": "MyFieldSet"
             },
             "customConfigs": [],
-            "expanded": true,
+            "expanded": false,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen3591",

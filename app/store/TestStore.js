@@ -26,7 +26,7 @@ Ext.define('MediLab.store.TestStore', {
         storeId: 'testStore',
         proxy: {
             type: 'ajax',
-            url: 'data/test.json',
+            url: 'data/Test.json',
             reader: {
                 type: 'json',
                 rootProperty: 'tests'

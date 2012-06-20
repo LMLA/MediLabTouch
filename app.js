@@ -45,22 +45,26 @@ Ext.application({
         'TestPortfolioView',
         'TestMenuList',
         'TestDetail',
-        'TestPortfolioList'
+        'TestPortfolioList',
+        'ByKeyWordList'
     ],
     name: 'MediLab',
     controllers: [
         'LoginFormController',
         'PhysicianMenuController',
         'TestMenuController',
-        'TestPortfolioController'
+        'TestPortfolioController',
+        'ByKeyWordFormController'
     ],
 
     launch: function() {
+
         Ext.Viewport.add({
             xclass: 'MediLab.view.LoginFormPanel'
         });
 
-        Ext.create('MediLab.view.LoginFormPanel', {fullscreen: true});
+
+
     }
 
 });
