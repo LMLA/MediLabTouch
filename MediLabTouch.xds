@@ -1,7 +1,7 @@
 {
     "name": "MediLabTouch",
     "settings": {
-        "urlPrefix": "http://192.168.1.13/~nicolasechavarria/sencha/MediLabTouch/",
+        "urlPrefix": "http://localhost/MediLabTouch/",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "",
