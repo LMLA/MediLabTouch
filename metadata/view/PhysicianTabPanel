@@ -1,0 +1,109 @@
+{
+    "id": "ExtBox1-ext-gen4411",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "homePanel",
+        "tpl": null,
+        "defaults": "{html: 'This is a placeholder text',\nstyleHtmlContent: true}\n",
+        "designer|userClassName": "PhysicianTabPanel",
+        "designer|userAlias": "physiciantabpanel",
+        "container|animation": "slide"
+    },
+    "customConfigs": [],
+    "designerId": "55f7aa84-f963-470a-a013-72a8579dcf61",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6654",
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "designer|userClassName": "MyTabBar",
+                "container|align": "center",
+                "container|pack": "center"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-tab-bar",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen13086",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Physician",
+                "iconCls": "home"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen12329"
+        },
+        {
+            "id": "ExtBox1-ext-gen13304",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Account",
+                "iconCls": "user"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen4427"
+        },
+        {
+            "id": "ExtBox1-ext-gen15629",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Contact",
+                "iconCls": "locate"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen4435"
+        },
+        {
+            "id": "ExtBox1-ext-gen16793",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Help",
+                "iconCls": "info"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen6117"
+        }
+    ]
+}
