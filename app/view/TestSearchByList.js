@@ -18,7 +18,7 @@ Ext.define('MediLab.view.TestSearchByList', {
     alias: 'widget.testsearchbylist',
 
     config: {
-        id: 'testMenuList',
+        id: 'testSearchByList',
         ui: 'round',
         store: 'testMenuArrayStore',
         onItemDisclosure: true,

@@ -58,9 +58,13 @@
                     "",
                     "    //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward.",
                     "    case 3:",
-                    "    Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});",
+                    "    var a=Ext.getCmp(\"testSearchByList\"), b=Ext.getCmp(\"physicianNavView\"); ",
+                    "        console.log(\"valor de a: \", a); ",
+                    "        console.log(\"valor de b: \", b); ",
+                    "        b.push(a);",
+                    "    //Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});",
                     "    break;",
-                    "",
+                    "    ",
                     "    case 4:",
                     "    Ext.Viewport.setActiveItem({xtype: 'loginformpanel'});",
                     "",
@@ -71,6 +75,29 @@
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#physicianMenuList",
                 "designer|userClassName": "onPhysicianMenuListDisclosure"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4202",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onNavigationviewActivate",
+                "implHandler": [
+                    "console.log('Container value', container);",
+                    "alert('OnActivate');",
+                    ""
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.navigation.View",
+                "designer|controlQuery": "navigationview",
+                "designer|userClassName": "onNavigationviewActivate"
             },
             "customConfigs": [],
             "expanded": true

@@ -24,6 +24,9 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
         control: {
             "#physicianMenuList": {
                 disclose: 'onPhysicianMenuListDisclosure'
+            },
+            "navigationview": {
+                activate: 'onNavigationviewActivate'
             }
         }
     },
@@ -45,13 +48,23 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
 
             //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward.
             case 3:
-            Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
+            var a=Ext.getCmp("testSearchByList"), b=Ext.getCmp("physicianNavView"); 
+            console.log("valor de a: ", a); 
+            console.log("valor de b: ", b); 
+            b.push(a);
+            //Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
             break;
 
             case 4:
             Ext.Viewport.setActiveItem({xtype: 'loginformpanel'});
 
         }
+
+    },
+
+    onNavigationviewActivate: function(container, newActiveItem, oldActiveItem, options) {
+        console.log('Container value', container);
+        alert('OnActivate');
 
     }
 

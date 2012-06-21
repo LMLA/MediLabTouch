@@ -23,6 +23,7 @@ Ext.define('MediLab.view.PhysicianNavView', {
     ],
 
     config: {
+        id: 'physicianNavView',
         items: [
             {
                 xtype: 'testbynamelist',

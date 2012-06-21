@@ -18,7 +18,7 @@ Ext.define('MediLab.view.TestByNameList', {
     alias: 'widget.testbynamelist',
 
     config: {
-        id: 'testPortfolioList',
+        id: 'testByNameList',
         width: '100%',
         store: 'testStore',
         grouped: true,
