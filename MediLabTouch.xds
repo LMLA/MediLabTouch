@@ -21,11 +21,11 @@
     "topInstanceFileMap": {
         "55f7aa84-f963-470a-a013-72a8579dcf61": {
             "paths": [
-                "metadata/view/HomePanel",
-                "app/view/override/HomePanel.js",
-                "app/view/HomePanel.js"
+                "metadata/view/PhysicianTabPanel",
+                "app/view/override/PhysicianTabPanel.js",
+                "app/view/PhysicianTabPanel.js"
             ],
-            "className": "HomePanel"
+            "className": "PhysicianTabPanel"
         },
         "a1ae2a22-0113-45a4-85ee-93532623c76c": {
             "paths": [
@@ -107,14 +107,6 @@
             ],
             "className": "PhysicianMenuContainer"
         },
-        "b2300abf-4573-4fea-877e-539c64d99520": {
-            "paths": [
-                "metadata/view/TestPortfolioView",
-                "app/view/override/TestPortfolioView.js",
-                "app/view/TestPortfolioView.js"
-            ],
-            "className": "TestPortfolioView"
-        },
         "ae9c5cf8-07ad-4751-b5e5-20fad83694b6": {
             "paths": [
                 "metadata/model/TestModel",
@@ -125,11 +117,11 @@
         },
         "57c3ed0f-ffee-4dcc-ab53-46ef7ca3e743": {
             "paths": [
-                "metadata/view/TestMenuList",
-                "app/view/override/TestMenuList.js",
-                "app/view/TestMenuList.js"
+                "metadata/view/TestSearchByList",
+                "app/view/override/TestSearchByList.js",
+                "app/view/TestSearchByList.js"
             ],
-            "className": "TestMenuList"
+            "className": "TestSearchByList"
         },
         "6340502f-b966-4e52-bafc-19955c0524f3": {
             "paths": [
@@ -197,11 +189,11 @@
         },
         "3045a1d5-3234-48fe-94b6-c902174874f9": {
             "paths": [
-                "metadata/view/TestPortfolioList",
-                "app/view/override/TestPortfolioList.js",
-                "app/view/TestPortfolioList.js"
+                "metadata/view/TestByNameList",
+                "app/view/override/TestByNameList.js",
+                "app/view/TestByNameList.js"
             ],
-            "className": "TestPortfolioList"
+            "className": "TestByNameList"
         },
         "30083432-c620-481e-9032-19f148156c48": {
             "paths": [
@@ -274,6 +266,14 @@
                 "app/store/SpecialtyStore.js"
             ],
             "className": "SpecialtyStore"
+        },
+        "b9a77996-f27c-4693-9e52-ce3c45424ab8": {
+            "paths": [
+                "metadata/view/PhysicianNavView",
+                "app/view/override/PhysicianNavView.js",
+                "app/view/PhysicianNavView.js"
+            ],
+            "className": "PhysicianNavView"
         }
     },
     "expandedState": {

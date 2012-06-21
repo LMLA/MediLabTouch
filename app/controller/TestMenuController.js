@@ -32,7 +32,7 @@ Ext.define('MediLab.controller.TestMenuController', {
         //alert("The Test Portfolio list has been disclosed");
         switch(index) {
             case 0:
-            Ext.Viewport.setActiveItem({xtype: 'testportfolioview'});
+            Ext.Viewport.setActiveItem({xtype: 'testbynamelist'});
             break;
 
             case 1:

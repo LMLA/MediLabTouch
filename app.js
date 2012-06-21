@@ -41,19 +41,19 @@ Ext.application({
         'SpecialtyStore'
     ],
     views: [
-        'HomePanel',
+        'PhysicianTabPanel',
         'Account',
         'Contact',
         'Help',
         'LoginFormPanel',
-        'PhysicianMenuContainer',
-        'TestPortfolioView',
-        'TestMenuList',
-        'TestDetail',
-        'TestPortfolioList',
         'ByKeyWordList',
         'PickerTest',
-        'SpecialtiesPicker'
+        'SpecialtiesPicker',
+        'PhysicianNavView',
+        'PhysicianMenuContainer',
+        'TestDetail',
+        'TestByNameList',
+        'TestSearchByList'
     ],
     name: 'MediLab',
     controllers: [

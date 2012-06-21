@@ -21,12 +21,6 @@ Ext.define('MediLab.view.PhysicianMenuContainer', {
         id: 'physicianMenuContainer',
         items: [
             {
-                xtype: 'titlebar',
-                docked: 'top',
-                scrollable: false,
-                title: 'MediLab Physician'
-            },
-            {
                 xtype: 'list',
                 height: 400,
                 id: 'physicianMenuList',

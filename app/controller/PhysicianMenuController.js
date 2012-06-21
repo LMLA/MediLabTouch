@@ -43,8 +43,9 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
             Ext.Viewport.setActiveItem({xtype: 'pendingorderslist'});
             break;
 
+            //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward.
             case 3:
-            Ext.Viewport.setActiveItem({xtype: 'testmenulist'});
+            Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
             break;
 
             case 4:
