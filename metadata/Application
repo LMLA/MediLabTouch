@@ -22,7 +22,8 @@
             "PhysicianMenuArrayStore",
             "TestMenuArrayStore",
             "TestTemp",
-            "TestStore"
+            "TestStore",
+            "SpecialtyStore"
         ],
         "views": [
             "HomePanel",
@@ -35,7 +36,9 @@
             "TestMenuList",
             "TestDetail",
             "TestPortfolioList",
-            "ByKeyWordList"
+            "ByKeyWordList",
+            "PickerTest",
+            "SpecialtiesPicker"
         ],
         "name": "MediLab",
         "controllers": [

@@ -1,0 +1,69 @@
+{
+    "id": "ExtBox1-ext-gen4025",
+    "type": "picker",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "useTitles": true,
+        "designer|userClassName": "SpecialtiesPicker",
+        "designer|userAlias": "specialtiesPicker"
+    },
+    "customConfigs": [],
+    "designerId": "2018eb4b-6b7b-4778-bc19-13637b3f5ec9",
+    "$viewOrder": 12,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen4034",
+            "type": "button",
+            "reference": {
+                "name": "doneButton",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "Done",
+                "designer|userClassName": "MyButton3"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4042",
+            "type": "button",
+            "reference": {
+                "name": "cancelButton",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "Cancel",
+                "designer|userClassName": "MyButton4"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4050",
+            "type": "pickerslot",
+            "reference": {
+                "name": "slots",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ui": "light",
+                "data": null,
+                "displayField": "name",
+                "name": "specialty",
+                "title": "Specialty",
+                "designer|userClassName": "MyPickerSlot"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

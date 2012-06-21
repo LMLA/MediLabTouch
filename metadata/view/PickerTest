@@ -1,0 +1,75 @@
+{
+    "id": "ExtBox1-ext-gen3654",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PickerTest",
+        "designer|userAlias": "pickerTest"
+    },
+    "customConfigs": [],
+    "designerId": "0cdbd529-1caa-449e-89d7-5bb8fa2588e3",
+    "$viewOrder": 11,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3797",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "mybutton2",
+                "text": "Pick a specialty",
+                "designer|userClassName": "MyButton2"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5705",
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onMybutton2Tap",
+                        "implHandler": [
+                            "var picker = button.numberPicker;",
+                            "",
+                            "if (!picker) {",
+                            "    picker = button.specialtiesPicker = Ext.Viewport.add({",
+                            "        xtype: 'specialtiesPicker',",
+                            "        listeners: {",
+                            "            change: function(picker, values) {",
+                            "                var s1 = values.specialty;",
+                            "                'Specialty Selected', ",
+                            "                'You chose the specialty ' + s1 + '.'",
+                            "            }",
+                            "        }",
+                            "    });",
+                            "}",
+                            "",
+                            "picker.setValue({",
+                            "    specialty: 1",
+                            "});",
+                            "",
+                            "picker.show();"
+                        ],
+                        "name": "tap",
+                        "designer|userClassName": "onMybutton2Tap"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

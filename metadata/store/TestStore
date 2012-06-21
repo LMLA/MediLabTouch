@@ -12,7 +12,7 @@
         "model": "TestModel",
         "storeId": "testStore",
         "designer|userClassName": "TestStore",
-        "designer|userAlias": "TestStore"
+        "designer|userAlias": "testStore"
     },
     "customConfigs": [],
     "designerId": "31f31eef-46ea-451e-a396-92a581bebe79",

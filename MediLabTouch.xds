@@ -1,7 +1,7 @@
 {
     "name": "MediLabTouch",
     "settings": {
-        "urlPrefix": "http://localhost/MediLabTouch/",
+        "urlPrefix": "http://192.168.1.13/~nicolasechavarria/sencha/MediLabTouch/",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "",
@@ -250,11 +250,35 @@
                 "app/controller/ByKeyWordFormController.js"
             ],
             "className": "ByKeyWordFormController"
+        },
+        "0cdbd529-1caa-449e-89d7-5bb8fa2588e3": {
+            "paths": [
+                "metadata/view/PickerTest",
+                "app/view/override/PickerTest.js",
+                "app/view/PickerTest.js"
+            ],
+            "className": "PickerTest"
+        },
+        "2018eb4b-6b7b-4778-bc19-13637b3f5ec9": {
+            "paths": [
+                "metadata/view/SpecialtiesPicker",
+                "app/view/override/SpecialtiesPicker.js",
+                "app/view/SpecialtiesPicker.js"
+            ],
+            "className": "SpecialtiesPicker"
+        },
+        "3df2218a-1672-47d0-b8f7-d635e8d5ccf6": {
+            "paths": [
+                "metadata/store/SpecialtyStore",
+                "app/store/override/SpecialtyStore.js",
+                "app/store/SpecialtyStore.js"
+            ],
+            "className": "SpecialtyStore"
         }
     },
     "expandedState": {
         "data": true,
-        "model": false,
+        "model": true,
         "component": true,
         "controller": true,
         "resource": true

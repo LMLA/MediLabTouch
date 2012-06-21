@@ -40,11 +40,7 @@ Ext.define('MediLab.controller.TestMenuController', {
             break;
 
             case 2:
-            Ext.Viewport.setActiveItem({xtype: 'byspecialtylist'});
-            break;
-
-            case 3:
-            Ext.Viewport.setActiveItem({xtype: 'byconditionlist'});
+            Ext.Viewport.setActiveItem({xtype: 'pickerTest'});
             break;
 
             case 4:

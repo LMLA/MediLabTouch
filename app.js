@@ -18,6 +18,10 @@ Ext.Loader.setConfig({
 });
 
 Ext.application({
+    requires: [
+        'MediLab.view.override.SpecialtiesPicker'
+    ],
+
     models: [
         'PhysicianMenuModel',
         'LoginMenuModel',
@@ -33,7 +37,8 @@ Ext.application({
         'PhysicianMenuArrayStore',
         'TestMenuArrayStore',
         'TestTemp',
-        'TestStore'
+        'TestStore',
+        'SpecialtyStore'
     ],
     views: [
         'HomePanel',
@@ -46,7 +51,9 @@ Ext.application({
         'TestMenuList',
         'TestDetail',
         'TestPortfolioList',
-        'ByKeyWordList'
+        'ByKeyWordList',
+        'PickerTest',
+        'SpecialtiesPicker'
     ],
     name: 'MediLab',
     controllers: [

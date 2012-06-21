@@ -38,7 +38,7 @@ Ext.define('MediLab.view.ByKeyWordList', {
                 name: 'search',
                 autoComplete: true,
                 autoCorrect: true,
-                placeHolder: 'Enter test name ...'
+                placeHolder: 'test name ...'
             },
             {
                 xtype: 'list',
