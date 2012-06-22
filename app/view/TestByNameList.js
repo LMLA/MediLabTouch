@@ -26,13 +26,6 @@ Ext.define('MediLab.view.TestByNameList', {
         itemTpl: [
             '<div>{name}</div>'
         ],
-        items: [
-            {
-                xtype: 'titlebar',
-                docked: 'top',
-                title: 'Test by Name'
-            }
-        ],
         indexBar: {
             id: 'testsByNameIndexBar'
         }

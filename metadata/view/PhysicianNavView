@@ -25,44 +25,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": null
+                "title": "Physcian menu"
             },
             "customConfigs": [],
             "iconCls": "icon-linkedinstance",
             "expanded": true,
             "masterInstanceId": "ExtBox1-ext-gen21914"
-        },
-        {
-            "id": "ExtBox1-ext-gen21358",
-            "type": "linkedinstance",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "title": null
-            },
-            "customConfigs": [],
-            "iconCls": "icon-linkedinstance",
-            "expanded": true,
-            "masterInstanceId": "ExtBox1-ext-gen35644"
-        },
-        {
-            "id": "ExtBox1-ext-gen20204",
-            "type": "linkedinstance",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "title": null
-            },
-            "customConfigs": [],
-            "iconCls": "icon-linkedinstance",
-            "expanded": true,
-            "masterInstanceId": "ExtBox1-ext-gen31089"
         }
     ]
 }

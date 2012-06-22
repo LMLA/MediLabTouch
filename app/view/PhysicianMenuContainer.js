@@ -21,6 +21,10 @@ Ext.define('MediLab.view.PhysicianMenuContainer', {
         id: 'physicianMenuContainer',
         items: [
             {
+                xtype: 'button',
+                text: 'MyButton5'
+            },
+            {
                 xtype: 'list',
                 height: 400,
                 id: 'physicianMenuList',
@@ -31,14 +35,7 @@ Ext.define('MediLab.view.PhysicianMenuContainer', {
                 ],
                 store: 'physicianMenuArrayStore',
                 allowDeselect: true,
-                onItemDisclosure: true,
-                items: [
-                    {
-                        xtype: 'titlebar',
-                        docked: 'top',
-                        title: 'Physician Menu'
-                    }
-                ]
+                onItemDisclosure: true
             }
         ]
     }

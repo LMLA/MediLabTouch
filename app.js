@@ -53,16 +53,15 @@ Ext.application({
         'PhysicianMenuContainer',
         'TestDetail',
         'TestByNameList',
-        'TestSearch'
+        'TestSearchPanel'
     ],
     name: 'MediLab',
     controllers: [
         'LoginFormController',
-        'PhysicianTabPanelController',
+        'PhysicianMenuController',
         'TestMenuController',
         'TestPortfolioController',
-        'ByKeywordFormController',
-        'SearchTestController'
+        'ByKeywordFormController'
     ],
 
     launch: function() {
