@@ -13,42 +13,8 @@
     "customConfigs": [],
     "designerId": "2494056e-8eb2-401d-9ab9-1aef1398086a",
     "$viewOrder": 5,
-    "expanded": false,
+    "expanded": true,
     "cn": [
-        {
-            "id": "ExtBox1-ext-gen14570",
-            "type": "titlebar",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "docked": "top",
-                "title": "Test Portfolio",
-                "designer|userClassName": "MyTitleBar2"
-            },
-            "customConfigs": [],
-            "expanded": true,
-            "cn": [
-                {
-                    "id": "ExtBox1-ext-gen19433",
-                    "type": "button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "ui": "back",
-                        "text": "Back",
-                        "designer|userClassName": "MyButton1"
-                    },
-                    "customConfigs": [],
-                    "expanded": true
-                }
-            ]
-        },
         {
             "id": "ExtBox1-ext-gen5350",
             "type": "searchfield",

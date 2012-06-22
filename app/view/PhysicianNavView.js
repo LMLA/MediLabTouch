@@ -25,7 +25,7 @@ Ext.define('MediLab.view.PhysicianNavView', {
         items: [
             {
                 xtype: 'physicianmenucontainer',
-                title: 'Physcian menu'
+                title: 'Physician'
             }
         ]
     }

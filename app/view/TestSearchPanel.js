@@ -13,7 +13,6 @@
  * Do NOT hand edit this file.
  */
 
-
 Ext.define('MediLab.view.TestSearchPanel', {
     extend: 'Ext.Panel',
     alias: 'widget.testsearchpanel',
@@ -23,9 +22,8 @@ Ext.define('MediLab.view.TestSearchPanel', {
             {
                 xtype: 'list',
                 height: 451,
-                id: 'testSearch',
                 ui: 'round',
-                width: 313,
+                width: '100%',
                 itemTpl: [
                     '<div>{option}</div>'
                 ],

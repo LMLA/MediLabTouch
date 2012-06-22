@@ -18,7 +18,7 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
     alias: 'controller.physicianmenucontroller',
     config: {
         refs: {
-            physicianmenulist: 'physicianmenulist',
+            physicianmenulist: '#physicianmenulist',
             physiciannavview: '#physicianNavView'
         },
 
@@ -50,33 +50,12 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
             Ext.Viewport.setActiveItem({xtype: 'pendingorderslist'});
             break;
 
-            //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward.
+            //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward. I think we need to use push.
             case 3:
-
-            //Ext.Viewport.setActiveItem({xtype: 'pendingorderslist'});
-
-            //var a=Ext.getCmp("physicianNavView"), b=Ext.getCmp("physicianMenu"); 
-            //var physicianNavView =Ext.getCmp("physiciannavniew"), testSearchPanel=Ext.getCmp("testsearchpanel"); 
-
-            //console.log("valor de physicianNavView: ", physicianNavView); 
-            //console.log("valor de testSearchPanel: ", testSearchPanel); 
-            //physicianNavView.push(testSearchPanel);
-
-
-            //Ext.ComponentManager.get('physicianNavView').push('testSearchByList');
-            //Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
-
-
-
-            var currentView = Ext.ComponentQuery.query('physiciannavview');
-            console.log("valor de currentView: ", currentView);       
-            currentView.push({
+            this.getContainer().push({
                 xtype:'testsearchpanel',
                 title: 'Test Search'
             });
-
-
-
             break;
 
             case 4:

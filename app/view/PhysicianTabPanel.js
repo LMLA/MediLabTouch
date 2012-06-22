@@ -44,6 +44,7 @@ Ext.define('MediLab.view.PhysicianTabPanel', {
         items: [
             {
                 xtype: 'physiciannavview',
+                title: 'Physician',
                 iconCls: 'home'
             },
             {

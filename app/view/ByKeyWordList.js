@@ -20,18 +20,6 @@ Ext.define('MediLab.view.ByKeywordList', {
     config: {
         items: [
             {
-                xtype: 'titlebar',
-                docked: 'top',
-                title: 'Test Portfolio',
-                items: [
-                    {
-                        xtype: 'button',
-                        ui: 'back',
-                        text: 'Back'
-                    }
-                ]
-            },
-            {
                 xtype: 'searchfield',
                 margin: '5 10 10 10 ',
                 label: '',

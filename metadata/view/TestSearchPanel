@@ -26,9 +26,9 @@
             "codeClass": null,
             "userConfig": {
                 "height": 451,
-                "id": "testSearch",
+                "id": null,
                 "ui": "round",
-                "width": 313,
+                "width": "100%",
                 "itemTpl": "<div>{option}</div>",
                 "store": "testMenuArrayStore",
                 "onItemDisclosure": true,
