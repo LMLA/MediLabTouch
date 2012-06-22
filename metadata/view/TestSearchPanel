@@ -1,0 +1,42 @@
+{
+    "id": "ExtBox1-ext-gen30408",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": null,
+        "designer|userClassName": "TestSearchPanel",
+        "designer|userAlias": "testsearchpanel"
+    },
+    "customConfigs": [],
+    "designerId": "93f2fb96-7326-427a-9ac2-37c403366327",
+    "$viewOrder": 12,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen35644",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 451,
+                "id": "testSearch",
+                "ui": "round",
+                "width": 313,
+                "itemTpl": "<div>{option}</div>",
+                "store": "testMenuArrayStore",
+                "onItemDisclosure": true,
+                "designer|userClassName": "TestSearch",
+                "designer|userAlias": "testsearch"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -66,9 +66,11 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
             //Ext.ComponentManager.get('physicianNavView').push('testSearchByList');
             //Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
 
-            console.log("valor de list: ", list);     
-            var view = Ext.get("physicianNavView");
-            view.push({
+
+
+            var currentView = Ext.ComponentQuery.query('physiciannavview');
+            console.log("valor de currentView: ", currentView);       
+            currentView.push({
                 xtype:'testsearchpanel',
                 title: 'Test Search'
             });
