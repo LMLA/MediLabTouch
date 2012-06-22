@@ -46,7 +46,7 @@ Ext.application({
         'Contact',
         'Help',
         'LoginFormPanel',
-        'ByKeyWordList',
+        'ByKeywordList',
         'PickerTest',
         'SpecialtiesPicker',
         'PhysicianNavView',
@@ -61,7 +61,7 @@ Ext.application({
         'PhysicianMenuController',
         'TestMenuController',
         'TestPortfolioController',
-        'ByKeyWordFormController'
+        'ByKeywordFormController'
     ],
 
     launch: function() {

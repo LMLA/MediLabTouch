@@ -51,8 +51,9 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
             var a=Ext.getCmp("testSearchByList"), b=Ext.getCmp("physicianNavView"); 
             console.log("valor de a: ", a); 
             console.log("valor de b: ", b); 
-            b.push(a);
-            //Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
+            //b.push(a);
+            //Ext.ComponentManager.get('physicianNavView').push('testSearchByList');
+            Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});
             break;
 
             case 4:

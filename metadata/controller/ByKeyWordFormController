@@ -7,7 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "ByKeyWordFormController",
+        "designer|userClassName": "ByKeywordFormController",
         "designer|userAlias": "bykeywordformcontroller"
     },
     "customConfigs": [],

@@ -31,7 +31,7 @@
             "Contact",
             "Help",
             "LoginFormPanel",
-            "ByKeyWordList",
+            "ByKeywordList",
             "PickerTest",
             "SpecialtiesPicker",
             "PhysicianNavView",
@@ -46,7 +46,7 @@
             "PhysicianMenuController",
             "TestMenuController",
             "TestPortfolioController",
-            "ByKeyWordFormController"
+            "ByKeywordFormController"
         ]
     },
     "customConfigs": [],

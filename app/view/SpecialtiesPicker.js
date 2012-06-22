@@ -25,7 +25,9 @@ Ext.define('MediLab.view.SpecialtiesPicker', {
                 ui: 'light',
                 displayField: 'name',
                 name: 'specialty',
-                title: 'Specialty'
+                title: 'Specialty',
+                valueField: 'id',
+                store: 'specialtyStore'
             }
         ]
     }

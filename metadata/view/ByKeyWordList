@@ -7,7 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "ByKeyWordList",
+        "designer|userClassName": "ByKeywordList",
         "designer|userAlias": "bykeywordlist"
     },
     "customConfigs": [],
