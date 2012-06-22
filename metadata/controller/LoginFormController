@@ -54,6 +54,7 @@
                     "",
                     "    case 2:",
                     "    Ext.Viewport.setActiveItem({xtype: 'physiciantabpanel'});",
+                    "",
                     "}",
                     ""
                 ],

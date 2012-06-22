@@ -17,7 +17,7 @@
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen20204",
+            "id": "ExtBox1-ext-gen16442",
             "type": "linkedinstance",
             "reference": {
                 "name": "items",
@@ -25,12 +25,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Tests by name"
+                "title": null
             },
             "customConfigs": [],
             "iconCls": "icon-linkedinstance",
             "expanded": true,
-            "masterInstanceId": "ExtBox1-ext-gen31089"
+            "masterInstanceId": "ExtBox1-ext-gen21914"
         },
         {
             "id": "ExtBox1-ext-gen21358",
@@ -41,7 +41,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Test portfolio search"
+                "title": null
             },
             "customConfigs": [],
             "iconCls": "icon-linkedinstance",
@@ -49,7 +49,7 @@
             "masterInstanceId": "ExtBox1-ext-gen35644"
         },
         {
-            "id": "ExtBox1-ext-gen16442",
+            "id": "ExtBox1-ext-gen20204",
             "type": "linkedinstance",
             "reference": {
                 "name": "items",
@@ -57,12 +57,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Physician"
+                "title": null
             },
             "customConfigs": [],
             "iconCls": "icon-linkedinstance",
             "expanded": true,
-            "masterInstanceId": "ExtBox1-ext-gen21914"
+            "masterInstanceId": "ExtBox1-ext-gen31089"
         }
     ]
 }

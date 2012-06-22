@@ -24,7 +24,7 @@ Ext.define('MediLab.view.PhysicianTabPanel', {
     ],
 
     config: {
-        id: 'homePanel',
+        id: 'physicianTabPanel',
         defaults: {
             html: 'This is a placeholder text',
             styleHtmlContent: true
@@ -44,7 +44,6 @@ Ext.define('MediLab.view.PhysicianTabPanel', {
         items: [
             {
                 xtype: 'physiciannavview',
-                title: 'Physician',
                 iconCls: 'home'
             },
             {

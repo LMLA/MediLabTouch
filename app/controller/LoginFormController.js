@@ -41,6 +41,7 @@ Ext.define('MediLab.controller.LoginFormController', {
 
             case 2:
             Ext.Viewport.setActiveItem({xtype: 'physiciantabpanel'});
+
         }
 
     }

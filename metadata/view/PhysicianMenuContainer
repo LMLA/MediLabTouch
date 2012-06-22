@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "a61e3794-9f06-40d7-9206-2791d55b0a65",
     "$viewOrder": 9,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen12146",
@@ -37,7 +37,25 @@
                 "designer|userAlias": "physicianmenulist"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen19795",
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "title": "Physician Menu",
+                        "designer|userClassName": "MyTitleBar3"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         }
     ]
 }

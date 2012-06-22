@@ -17,25 +17,22 @@ Ext.define('MediLab.view.PhysicianNavView', {
     extend: 'Ext.navigation.View',
     alias: 'widget.physiciannavview',
     requires: [
-        'MediLab.view.TestByNameList',
-        'MediLab.view.TestSearchByList',
-        'MediLab.view.PhysicianMenuContainer'
+        'MediLab.view.PhysicianMenuContainer',
+        'MediLab.view.TestSearch',
+        'MediLab.view.TestByNameList'
     ],
 
     config: {
         id: 'physicianNavView',
         items: [
             {
-                xtype: 'testbynamelist',
-                title: 'Tests by name'
+                xtype: 'physicianmenucontainer'
             },
             {
-                xtype: 'testsearchbylist',
-                title: 'Test portfolio search'
+                xtype: 'testsearch'
             },
             {
-                xtype: 'physicianmenucontainer',
-                title: 'Physician'
+                xtype: 'testbynamelist'
             }
         ]
     }

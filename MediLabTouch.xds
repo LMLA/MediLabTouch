@@ -117,11 +117,11 @@
         },
         "57c3ed0f-ffee-4dcc-ab53-46ef7ca3e743": {
             "paths": [
-                "metadata/view/TestSearchByList",
-                "app/view/override/TestSearchByList.js",
-                "app/view/TestSearchByList.js"
+                "metadata/view/TestSearch",
+                "app/view/override/TestSearch.js",
+                "app/view/TestSearch.js"
             ],
-            "className": "TestSearchByList"
+            "className": "TestSearch"
         },
         "6340502f-b966-4e52-bafc-19955c0524f3": {
             "paths": [
@@ -133,11 +133,11 @@
         },
         "2a89b976-c720-4971-b577-a890dc3b71c8": {
             "paths": [
-                "metadata/controller/PhysicianMenuController",
-                "app/controller/override/PhysicianMenuController.js",
-                "app/controller/PhysicianMenuController.js"
+                "metadata/controller/PhysicianTabPanelController",
+                "app/controller/override/PhysicianTabPanelController.js",
+                "app/controller/PhysicianTabPanelController.js"
             ],
-            "className": "PhysicianMenuController"
+            "className": "PhysicianTabPanelController"
         },
         "8f1dae0e-449d-4386-bae3-59a6d6f55f25": {
             "paths": [
@@ -274,10 +274,18 @@
                 "app/view/PhysicianNavView.js"
             ],
             "className": "PhysicianNavView"
+        },
+        "ab0aa8cf-039b-4ce6-a5d8-04de932b64b0": {
+            "paths": [
+                "metadata/controller/SearchTestController",
+                "app/controller/override/SearchTestController.js",
+                "app/controller/SearchTestController.js"
+            ],
+            "className": "SearchTestController"
         }
     },
     "expandedState": {
-        "data": true,
+        "data": false,
         "model": true,
         "component": true,
         "controller": true,
