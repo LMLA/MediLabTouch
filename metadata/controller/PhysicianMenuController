@@ -1,0 +1,181 @@
+{
+    "id": "ExtBox1-ext-gen33109",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PhysicianMenuController",
+        "designer|userAlias": "physicianmenucontroller"
+    },
+    "customConfigs": [],
+    "designerId": "2a89b976-c720-4971-b577-a890dc3b71c8",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen33531",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "physicianmenulist",
+                "selector": "physicianmenulist",
+                "designer|userClassName": "physicianmenulist"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen33924",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onPhysicianMenuListDisclosure",
+                "implHandler": [
+                    "//alert(\"The Physician Menu list has been disclosed\");",
+                    "switch(index) {",
+                    "    case 0:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'mypatientslist'});",
+                    "    break;",
+                    "",
+                    "    case 1:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'neworderslist'});",
+                    "    break;",
+                    "",
+                    "    case 2:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'pendingorderslist'});",
+                    "    break;",
+                    "",
+                    "    //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward.",
+                    "    case 3:",
+                    "        ",
+                    "         //Ext.Viewport.setActiveItem({xtype: 'pendingorderslist'});",
+                    "        ",
+                    "    //var a=Ext.getCmp(\"physicianNavView\"), b=Ext.getCmp(\"physicianMenu\"); ",
+                    "    //var physicianNavView =Ext.getCmp(\"physiciannavniew\"), testSearchPanel=Ext.getCmp(\"testsearchpanel\"); ",
+                    "",
+                    "    //console.log(\"valor de physicianNavView: \", physicianNavView); ",
+                    "    //console.log(\"valor de testSearchPanel: \", testSearchPanel); ",
+                    "    //physicianNavView.push(testSearchPanel);",
+                    "        ",
+                    "        ",
+                    "    //Ext.ComponentManager.get('physicianNavView').push('testSearchByList');",
+                    "    //Ext.Viewport.setActiveItem({xtype: 'testsearchbylist'});",
+                    "",
+                    "    console.log(\"valor de list: \", list);     ",
+                    "       var view = Ext.get(\"physicianNavView\");",
+                    "view.push({",
+                    "    xtype:'testsearchpanel',",
+                    "    title: 'Test Search'",
+                    "});",
+                    "        ",
+                    "        ",
+                    "        ",
+                    "    break;",
+                    "",
+                    "    case 4:",
+                    "    Ext.Viewport.setActiveItem({xtype: 'loginformpanel'});",
+                    "",
+                    "}",
+                    ""
+                ],
+                "name": "disclose",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#physicianMenuList",
+                "designer|userClassName": "onPhysicianMenuListDisclosure"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4202",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onNavigationviewActivate",
+                "implHandler": [
+                    "console.log('Container value', container);",
+                    "//alert(oldActiveItem);",
+                    "",
+                    "var a=Ext.getCmp(\"testSearchByList\"), b=Ext.getCmp(\"physicianNavView\"); ",
+                    "",
+                    "console.log(\"valor de testSearchByList: \", a); ",
+                    "console.log(\"valor de physicianNavView: \", b); ",
+                    "",
+                    "if (oldActiveItem === undefined) {",
+                    "    //alert (\"esta indefinido\");",
+                    "    b.setActiveItem(0);",
+                    "} else {",
+                    "    //alert (\"Voy de: \"+oldActiveItem + \" Voy para: \" + newActiveItem);",
+                    "    b.setActiveItem(newActiveItem);",
+                    "}",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.navigation.View",
+                "designer|controlQuery": "navigationview",
+                "designer|userClassName": "onNavigationviewActivate"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen5386",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "physiciannavview",
+                "selector": "#physicianNavView",
+                "designer|userClassName": "physiciannavview"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen41937",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onButtonTap",
+                "implHandler": [
+                    "",
+                    "button.up('physiciannavview').push({",
+                    "    xtype:'testsearchpanel',",
+                    "    title: 'Test Search'",
+                    "});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button",
+                "designer|userClassName": "onButtonTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
