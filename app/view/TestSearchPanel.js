@@ -13,6 +13,7 @@
  * Do NOT hand edit this file.
  */
 
+
 Ext.define('MediLab.view.TestSearchPanel', {
     extend: 'Ext.Panel',
     alias: 'widget.testsearchpanel',
