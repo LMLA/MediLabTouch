@@ -23,12 +23,10 @@ Ext.define('MediLab.view.TestByNameList', {
         store: 'testStore',
         grouped: true,
         onItemDisclosure: true,
+        indexBar: true,
         itemTpl: [
             '<div>{name}</div>'
-        ],
-        indexBar: {
-            id: 'testsByNameIndexBar'
-        }
+        ]
     }
 
 });

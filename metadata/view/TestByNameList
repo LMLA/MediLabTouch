@@ -7,6 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|initialView": true,
         "id": "testByNameList",
         "width": "100%",
         "itemTpl": "<div>{name}</div>",
@@ -30,7 +31,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "id": "testsByNameIndexBar",
+                "id": null,
                 "designer|userClassName": "MyIndexBar"
             },
             "customConfigs": [],

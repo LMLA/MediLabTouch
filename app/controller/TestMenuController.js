@@ -18,12 +18,16 @@ Ext.define('MediLab.controller.TestMenuController', {
     alias: 'controller.testmenucontroller',
     config: {
         refs: {
-            testportfolioview: 'testportfolioview'
+            testsearchpanel: '#testsearchpanel',
+            testbynamelist: '#testbynamelist'
         },
 
         control: {
             "#testMenuList": {
                 disclose: 'onTestMenuListDisclosure'
+            },
+            "button": {
+                tap: 'onButtonTap'
             }
         }
     },
@@ -47,6 +51,14 @@ Ext.define('MediLab.controller.TestMenuController', {
             Ext.Viewport.setActiveItem({xtype: 'bydiseaselist'});
 
         }
+    },
+
+    onButtonTap: function(button, e, options) {
+
+        button.up('testsearchpanel').push({
+            xtype:'testbynamelist',
+            title: 'Test by Name'
+        });
     }
 
 });

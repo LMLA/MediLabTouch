@@ -39,7 +39,7 @@ Ext.define('MediLab.view.PickerTest', {
 
         if (!picker) {
             picker = button.specialtiesPicker = Ext.Viewport.add({
-                xtype: 'specialtiesPicker',
+                xtype: 'specialtiespicker',
                 listeners: {
                     change: function(picker, values) {
                         var s1 = values.specialty;

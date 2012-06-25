@@ -9,12 +9,12 @@
     "userConfig": {
         "useTitles": true,
         "designer|userClassName": "SpecialtiesPicker",
-        "designer|userAlias": "specialtiesPicker"
+        "designer|userAlias": "specialtiespicker"
     },
     "customConfigs": [],
     "designerId": "2018eb4b-6b7b-4778-bc19-13637b3f5ec9",
     "$viewOrder": 7,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen4034",

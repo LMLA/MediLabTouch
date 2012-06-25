@@ -19,7 +19,7 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
     config: {
         refs: {
             physicianmenulist: '#physicianmenulist',
-            physiciannavview: '#physicianNavView'
+            physiciannavview: '#physiciannavview'
         },
 
         control: {
@@ -52,10 +52,11 @@ Ext.define('MediLab.controller.PhysicianMenuController', {
 
             //This is not the correct way to push the testsearchbylist view, we need to understand how to navigate correctly Navigation views in order to move forward. I think we need to use push.
             case 3:
-            this.getContainer().push({
-                xtype:'testsearchpanel',
-                title: 'Test Search'
-            });
+            //this.getContainer().push({
+            //    xtype:'testsearchpanel',
+            //    title: 'Test Search'
+            //});
+            Ext.Viewport.setActiveItem({xtype: 'testsearchpanel'});
             break;
 
             case 4:

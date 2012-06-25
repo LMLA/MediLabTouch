@@ -165,11 +165,11 @@
         },
         "2be41abc-c129-46a5-9688-e9122b0d157a": {
             "paths": [
-                "metadata/controller/TestPortfolioController",
-                "app/controller/override/TestPortfolioController.js",
-                "app/controller/TestPortfolioController.js"
+                "metadata/controller/TestByNameListController",
+                "app/controller/override/TestByNameListController.js",
+                "app/controller/TestByNameListController.js"
             ],
-            "className": "TestPortfolioController"
+            "className": "TestByNameListController"
         },
         "ea2ff6bb-0c60-43a6-9fcd-7e2daa10080a": {
             "paths": [
@@ -274,11 +274,27 @@
                 "app/view/TestSearchPanel.js"
             ],
             "className": "TestSearchPanel"
+        },
+        "8c42cded-c8fb-4a0a-92ef-a173ca647c83": {
+            "paths": [
+                "metadata/view/MyList",
+                "app/view/override/MyList.js",
+                "app/view/MyList.js"
+            ],
+            "className": "MyList"
+        },
+        "1ce66674-4ae4-445b-a0f2-785e16e35742": {
+            "paths": [
+                "metadata/controller/MyListController",
+                "app/controller/override/MyListController.js",
+                "app/controller/MyListController.js"
+            ],
+            "className": "MyListController"
         }
     },
     "expandedState": {
-        "data": true,
-        "model": true,
+        "data": false,
+        "model": false,
         "component": true,
         "controller": true,
         "resource": true

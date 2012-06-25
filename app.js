@@ -53,25 +53,32 @@ Ext.application({
         'PhysicianMenuContainer',
         'TestDetail',
         'TestByNameList',
-        'TestSearchPanel'
+        'TestSearchPanel',
+        'MyList'
     ],
     name: 'MediLab',
     controllers: [
         'LoginFormController',
         'PhysicianMenuController',
         'TestMenuController',
-        'TestPortfolioController',
-        'ByKeywordFormController'
+        'TestByNameListController',
+        'ByKeywordFormController',
+        'MyListController'
     ],
 
     launch: function() {
 
         Ext.Viewport.add({
             xclass: 'MediLab.view.LoginFormPanel'
+            //xclass: 'MediLab.view.TestByNameList'
+            //xclass: 'MediLab.view.ByKeywordList'
+            //xclass: 'MediLab.view.PickerTest'
+
         });
 
 
 
+        Ext.create('MediLab.view.TestByNameList', {fullscreen: true});
     }
 
 });

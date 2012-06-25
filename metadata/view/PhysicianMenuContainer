@@ -24,21 +24,6 @@
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen40103",
-            "type": "button",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "text": "MyButton5",
-                "designer|userClassName": "MyButton5"
-            },
-            "customConfigs": [],
-            "expanded": true
-        },
-        {
             "id": "ExtBox1-ext-gen12146",
             "type": "list",
             "reference": {
