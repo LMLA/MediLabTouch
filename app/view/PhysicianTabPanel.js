@@ -24,7 +24,6 @@ Ext.define('MediLab.view.PhysicianTabPanel', {
     ],
 
     config: {
-        id: 'physicianTabPanel',
         defaults: {
             html: 'This is a placeholder text',
             styleHtmlContent: true

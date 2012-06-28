@@ -13,7 +13,7 @@
     "customConfigs": [],
     "designerId": "8585c485-eb08-4947-a2c4-ce97f37ea394",
     "$viewOrder": 0,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen15739",
@@ -40,11 +40,16 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "onLoginMenuListDisclosure",
+                "fn": "onListItemTap",
                 "implHandler": [
                     "//alert(\"The Login Menu list has been disclosed\");",
+                    "",
+                    " //Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);",
+                    "//your_container(your_container.getActiveItem(), false);",
+                    "",
                     "switch(index) {",
                     "    case 0:",
+                    "",
                     "    Ext.Viewport.setActiveItem({xtype: 'myPatients'});",
                     "    break;",
                     "",
@@ -58,10 +63,10 @@
                     "}",
                     ""
                 ],
-                "name": "disclose",
+                "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "#loginMenuList",
-                "designer|userClassName": "onLoginMenuListDisclosure"
+                "designer|controlQuery": "loginformpanel [name=LoginMenuList]",
+                "designer|userClassName": "onListItemTap"
             },
             "customConfigs": [],
             "expanded": true

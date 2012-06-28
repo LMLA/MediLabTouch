@@ -22,16 +22,21 @@ Ext.define('MediLab.controller.LoginFormController', {
         },
 
         control: {
-            "#loginMenuList": {
-                disclose: 'onLoginMenuListDisclosure'
+            "loginformpanel [name=LoginMenuList]": {
+                itemtap: 'onListItemTap'
             }
         }
     },
 
-    onLoginMenuListDisclosure: function(list, record, target, index, e, options) {
+    onListItemTap: function(dataview, index, target, record, e, options) {
         //alert("The Login Menu list has been disclosed");
+
+        //Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);
+        //your_container(your_container.getActiveItem(), false);
+
         switch(index) {
             case 0:
+
             Ext.Viewport.setActiveItem({xtype: 'myPatients'});
             break;
 

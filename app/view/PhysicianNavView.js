@@ -17,14 +17,13 @@ Ext.define('MediLab.view.PhysicianNavView', {
     extend: 'Ext.navigation.View',
     alias: 'widget.physiciannavview',
     requires: [
-        'MediLab.view.PhysicianMenuContainer'
+        'MediLab.view.PhysicianMenu'
     ],
 
     config: {
-        id: 'physicianNavView',
         items: [
             {
-                xtype: 'physicianmenucontainer',
+                xtype: 'physicianmenu',
                 title: 'Physician'
             }
         ]

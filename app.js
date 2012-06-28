@@ -18,10 +18,6 @@ Ext.Loader.setConfig({
 });
 
 Ext.application({
-    requires: [
-        'MediLab.view.override.SpecialtiesPicker'
-    ],
-
     models: [
         'PhysicianMenuModel',
         'LoginMenuModel',
@@ -38,7 +34,9 @@ Ext.application({
         'TestMenuArrayStore',
         'TestTemp',
         'TestStore',
-        'SpecialtyStore'
+        'SpecialtyStore',
+        'DiseaseStore',
+        'ConditionStore'
     ],
     views: [
         'PhysicianTabPanel',
@@ -46,24 +44,30 @@ Ext.application({
         'Contact',
         'Help',
         'LoginFormPanel',
-        'ByKeywordList',
-        'PickerTest',
-        'SpecialtiesPicker',
+        'TestsByKeyword',
         'PhysicianNavView',
-        'PhysicianMenuContainer',
         'TestDetail',
-        'TestByNameList',
-        'TestSearchPanel',
-        'MyList'
+        'TestSearch',
+        'MyList',
+        'TestsBySpecialty',
+        'PendingOrders',
+        'PatientList',
+        'NewOrder',
+        'TestsByDisease',
+        'TestsByCondition',
+        'PhysicianMenu',
+        'TestsByName'
     ],
     name: 'MediLab',
     controllers: [
         'LoginFormController',
-        'PhysicianMenuController',
-        'TestMenuController',
-        'TestByNameListController',
-        'ByKeywordFormController',
-        'MyListController'
+        'PhysicianMenu',
+        'TestSearch',
+        'TestByName',
+        'TestsByKeyWord',
+        'TestsBySpecialty',
+        'TestsByCondition',
+        'TestsByDisease'
     ],
 
     launch: function() {
@@ -74,11 +78,15 @@ Ext.application({
             //xclass: 'MediLab.view.ByKeywordList'
             //xclass: 'MediLab.view.PickerTest'
 
+            // xclass: 'MediLab.view.BySpecialty'
+            //xclass: 'MediLab.view.TestsByName'
+
+
+
         });
 
 
 
-        Ext.create('MediLab.view.TestByNameList', {fullscreen: true});
     }
 
 });

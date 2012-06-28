@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "f77d2980-9929-4500-99b5-ed98952e05b9",
     "$viewOrder": 0,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen3342",
@@ -111,7 +111,8 @@
             "codeClass": null,
             "userConfig": {
                 "height": 233,
-                "id": "loginMenuList",
+                "id": null,
+                "itemId": "",
                 "ui": "round",
                 "width": "100%",
                 "scrollable": "false",
@@ -119,9 +120,16 @@
                 "store": "loginMenuArrayStore",
                 "allowDeselect": true,
                 "onItemDisclosure": true,
-                "designer|userClassName": "MyList"
+                "designer|userClassName": "MyList",
+                "name": "LoginMenuList"
             },
-            "customConfigs": [],
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
             "expanded": true
         }
     ]

@@ -46,7 +46,7 @@ Ext.define('MediLab.view.LoginFormPanel', {
             {
                 xtype: 'list',
                 height: 233,
-                id: 'loginMenuList',
+                itemId: '',
                 ui: 'round',
                 width: '100%',
                 scrollable: false,
@@ -55,7 +55,8 @@ Ext.define('MediLab.view.LoginFormPanel', {
                 ],
                 store: 'loginMenuArrayStore',
                 allowDeselect: true,
-                onItemDisclosure: true
+                onItemDisclosure: true,
+                name: 'LoginMenuList'
             }
         ]
     }

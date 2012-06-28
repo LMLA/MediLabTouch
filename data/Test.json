@@ -60,18 +60,6 @@
             "specialty": [
                 {
                     "name": "Hematology"
-                },
-                {
-                    "name": "Obstetrics"
-                },
-                {
-                    "name": "Allergy and Immunology"
-                },
-                {
-                    "name": "Rheumatology"
-                },
-                {
-                    "name": "Cardiology"
                 }
             ],
             "disease": [
@@ -159,43 +147,16 @@
             "specialty": [
                 {
                     "name": "Hematology"
-                },
-                {
-                    "name": "Obstetrics"
-                },
-                {
-                    "name": "Allergy and Immunology"
-                },
-                {
-                    "name": "Rheumatology"
-                },
-                {
-                    "name": "Cardiology"
                 }
             ],
             "disease": [
                 {
                     "name": "Liver disease"
-                },
-                {
-                    "name": "Hyponatremia"
-                },
-                {
-                    "name": "Diabetes"
-                },
-                {
-                    "name": "Kidney disorders"
                 }
             ],
             "condition": [
                 {
                     "name": "Pregnancy"
-                },
-                {
-                    "name": "Diabetes"
-                },
-                {
-                    "name": "Osteoporosis"
                 }
             ]
         },
@@ -255,9 +216,27 @@
                     "commonQuestions": "1. Can a WBC count be performed on a sample other than blood?\nYes. WBC counts may be performed on many different types of body fluids. A common reason that this is done is to more directly assess one area of the body that may be infected or inflamed. For example, if meningitis is suspected, then a WBC count plus differential may be performed on a sample of cerebrospinal fluid (CSF). Many other examples are listed in the article on Body Fluid Analysis.\n\n2. If I have an abnormal WBC count, what other tests might my doctor order?\nOther general tests to check your health may include a comprehensive metabolic panel (CMP). Depending on your signs, symptoms, medical history, physical exam and suspected condition, your doctor may choose to order a variety of other tests. A few general examples include:\n\n•\tBacterial infection: a culture of the affected area (e.g., urine culture, sputum culture, blood culture), strep test\n\n•\tViral infection: tests for mononucleosis, EBV\n\n•\tInflammation: CRP, ESR\n\n•\tAutoimmune diseases: ANA\n\n•\tAllergies: Allergy tests\n\n•\tLeukemia: Bone marrow biopsy, immunophenotyping (e.g., flow cytometry), chromosome analysis"
                 }
             ],
-            "specialty": [ ],
-            "disease": [ ],
-            "condition": [ ]
+            "specialty":  [
+                {
+                    "name": "Hematology"
+                },
+                {
+                    "name": "Cardiology"
+                }
+            ],
+            "disease": [
+				{
+                	"name": "Diabetes"
+            	},
+            	{
+                	"name": "Kidney disorders"
+            	}
+             ],
+            "condition": [ 
+            	{
+                	"name": "Diabetes"
+            	}
+			]
         },
         {
             "id": 4,
@@ -315,9 +294,29 @@
                     "commonQuestions": "1. Can I test my hemoglobin at home?\nYes, there are some home tests currently available that have been approved by the U.S. Food and Drug Administration (FDA). Home testing offers many benefits, but it's also important to recognize the potential tradeoffs between quality and convenience and to take steps to protect yourself against the possibility of false results, and your own lack of training. Talk to your doctor about this type of testing and consult her about any questions or concerns you may have. For more about these tests, see the article With Home Testing, Consumers Take Charge of Their Health.\n^ Back to top\n\n2. Is anyone at greater risk of abnormal hemoglobin levels?\nWomen of childbearing age tend to have lower hemoglobin levels than men due to loss of iron and blood during menstrual periods and increased need for iron during pregnancy. Others who are at greater risk of a low hemoglobin level (anemia) include people with poor nutrition and diets low in iron or vitamins, people who have undergone surgery or have been severely injured, people with chronic conditions such as kidney disease, cancer, HIV/AIDS, inflammatory bowel disease, chronic infection or chronic inflammatory conditions (e.g., rheumatoid arthritis). Someone who has family members with a genetic cause of anemia, such as sickle cell or thalassemia, also has a higher risk of having the condition and a higher risk of anemia.\n^ Back to top\n\n3. Are there warning signs for abnormally low hemoglobin levels?\nSome warning signs are fatigue, fainting, pallor, and shortness of breath.\n^ Back to top\n\n4. Can a healthy diet and nutrition help keep optimal hemoglobin levels?\nYes, to the extent that if you eat a well-balanced diet, you can prevent anemia due to a lack of iron, vitamin B12, or folate in the foods you eat. Sometimes use of a supplement is recommended if you are at risk of a vitamin deficiency. However, the most common cause of vitamin B12 deficiency is malabsorption, and the most common cause of iron deficiency is bleeding. These conditions and other RBC problems that are caused by diseases other than nutritional deficiencies cannot be corrected by diet."
                 }
             ],
-            "specialty": [ ],
-            "disease": [ ],
-            "condition": [ ]
+            "specialty": [
+                {
+                    "name": "Hematology"
+                },
+                {
+                    "name": "Rheumatology"
+                }
+            ],
+            
+            "disease": [ 
+            	{
+                	"name": "Diabetes"
+            		},
+            	{
+                	"name": "Kidney disorders"
+            	}
+
+			],
+            "condition":  [ 
+            	{
+                	"name": "Diabetes"
+            	}
+			]
         }
     ]
 

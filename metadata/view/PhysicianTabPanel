@@ -7,7 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "id": "physicianTabPanel",
+        "id": null,
         "tpl": null,
         "defaults": "{html: 'This is a placeholder text',\nstyleHtmlContent: true}\n",
         "designer|userClassName": "PhysicianTabPanel",
@@ -17,7 +17,7 @@
     "customConfigs": [],
     "designerId": "55f7aa84-f963-470a-a013-72a8579dcf61",
     "$viewOrder": 1,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen6654",
