@@ -1,0 +1,70 @@
+{
+    "id": "ExtBox1-ext-gen4353",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TestsByKeyword",
+        "designer|userAlias": "testsbykeyword"
+    },
+    "customConfigs": [],
+    "designerId": "2494056e-8eb2-401d-9ab9-1aef1398086a",
+    "$viewOrder": 6,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5350",
+            "type": "searchfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": null,
+                "margin": "5 10 10 10 ",
+                "label": "",
+                "name": "search",
+                "autoComplete": true,
+                "autoCorrect": true,
+                "placeHolder": "test name ...",
+                "designer|userClassName": "MySearchField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen6085",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 392,
+                "id": null,
+                "ui": "round",
+                "width": "100%",
+                "scrollable": "false",
+                "itemTpl": "<div>{name}</div>",
+                "store": "testStore",
+                "triggerCtEvent": null,
+                "onItemDisclosure": true,
+                "designer|userClassName": "MyList5",
+                "name": "TestsByKeyWordList"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "expanded": true
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "id": "ExtBox1-ext-gen24387",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TestsByCondition",
+        "designer|userAlias": "testsbycondition"
+    },
+    "customConfigs": [],
+    "designerId": "dbc6ba96-08e4-4657-a024-d5640a97c359",
+    "$viewOrder": 9,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen24391",
+            "type": "selectfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": null,
+                "label": "Condition",
+                "name": "conditionPicker",
+                "value": null,
+                "displayField": "name",
+                "store": "conditionStore",
+                "usePicker": "true",
+                "valueField": "id\n",
+                "designer|userClassName": "MySelectField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen24395",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 392,
+                "id": "",
+                "ui": "round",
+                "width": "100%",
+                "scrollable": "false",
+                "itemTpl": "<div>{name}</div>",
+                "store": "testStore",
+                "triggerCtEvent": null,
+                "onItemDisclosure": true,
+                "designer|userClassName": "MyList5",
+                "name": "TestsByConditionList"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "expanded": true
+        }
+    ]
+}

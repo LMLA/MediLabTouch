@@ -1,0 +1,74 @@
+{
+    "id": "ExtBox1-ext-gen25930",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": "100%",
+        "width": "100%",
+        "layout": "fit",
+        "scrollable": "false",
+        "designer|userClassName": "TestsByName",
+        "designer|userAlias": "testsbyname"
+    },
+    "customConfigs": [],
+    "designerId": "3bf13328-726b-4c50-b0a1-b4407655fa5d",
+    "$viewOrder": 5,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen31089",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": true,
+                "docked": "top",
+                "height": "100%",
+                "id": "",
+                "ui": "round",
+                "width": "100%",
+                "emptyText": "There is no tests",
+                "itemTpl": "<div>{name}</div>",
+                "scrollToTopOnRefresh": false,
+                "store": "testStore",
+                "grouped": true,
+                "onItemDisclosure": true,
+                "designer|userClassName": "TestByName",
+                "designer|userAlias": "testbyname",
+                "name": "TestsByNameList"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen52832",
+                    "type": "listindexbar",
+                    "reference": {
+                        "name": "indexBar",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "testsByNameListIndexBar",
+                        "designer|userClassName": "MyIndexBar"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

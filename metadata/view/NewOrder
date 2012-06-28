@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen10112",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "html": "This is the test content",
+        "id": null,
+        "styleHtmlContent": true,
+        "tpl": "New Order",
+        "scrollable": "vertical",
+        "designer|userClassName": "NewOrder",
+        "designer|userAlias": "neworder"
+    },
+    "customConfigs": [],
+    "designerId": "883419a0-f0d5-4d79-bfff-d768ac8e3e8d",
+    "$viewOrder": 15,
+    "expanded": true
+}

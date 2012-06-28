@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen7617",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "html": "This is the test content",
+        "id": null,
+        "styleHtmlContent": true,
+        "tpl": "Patient List",
+        "scrollable": "vertical",
+        "designer|userClassName": "PatientList",
+        "designer|userAlias": "patientlist"
+    },
+    "customConfigs": [],
+    "designerId": "ddcbbc7c-e043-4cdf-aff2-c9a8b9f0ddcf",
+    "$viewOrder": 14,
+    "expanded": true
+}

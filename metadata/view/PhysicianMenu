@@ -1,0 +1,49 @@
+{
+    "id": "ExtBox1-ext-gen19163",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PhysicianMenu",
+        "designer|userAlias": "physicianmenu"
+    },
+    "customConfigs": [],
+    "designerId": "29ec6304-088a-41f9-9f14-e921b0cb1c30",
+    "$viewOrder": 11,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen12146",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 400,
+                "id": "",
+                "ui": "round",
+                "width": "100%",
+                "itemTpl": "<div>{option}</div>",
+                "store": "physicianMenuArrayStore",
+                "allowDeselect": true,
+                "onItemDisclosure": true,
+                "designer|userClassName": "PhysicianMenuList",
+                "designer|userAlias": "physicianmenulist",
+                "name": "PhysicianMenuList"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "expanded": true
+        }
+    ]
+}

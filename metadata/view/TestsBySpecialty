@@ -1,0 +1,71 @@
+{
+    "id": "ExtBox1-ext-gen4916",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TestsBySpecialty",
+        "designer|userAlias": "testsbyspecialty"
+    },
+    "customConfigs": [],
+    "designerId": "1b05e254-b8b1-4e68-b63d-f52640b97ab8",
+    "$viewOrder": 7,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5524",
+            "type": "selectfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": null,
+                "label": "Specialty",
+                "name": "specialtyPicker",
+                "value": null,
+                "displayField": "name",
+                "store": "specialtyStore",
+                "usePicker": "true",
+                "valueField": "id\n",
+                "designer|userClassName": "MySelectField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4924",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 392,
+                "id": "",
+                "ui": "round",
+                "width": "100%",
+                "scrollable": "false",
+                "itemTpl": "<div>{name}</div>",
+                "store": "testStore",
+                "triggerCtEvent": null,
+                "onItemDisclosure": true,
+                "designer|userClassName": "MyList5",
+                "name": "TestsBySpecialtyList"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "expanded": true
+        }
+    ]
+}

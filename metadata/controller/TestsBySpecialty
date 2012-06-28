@@ -1,0 +1,109 @@
+{
+    "id": "ExtBox1-ext-gen6738",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TestsBySpecialty"
+    },
+    "customConfigs": [],
+    "designerId": "665483f6-e9be-41ba-a3d0-86cf3c6dc754",
+    "$viewOrder": 5,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen7236",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSelectfieldChange",
+                "implHandler": [
+                    "",
+                    "",
+                    "// Set and get the stores needed for the process",
+                    "specialtyStore=Ext.getStore('specialtyStore');",
+                    "testStore=Ext.getStore('testStore');",
+                    "",
+                    "console.log(\"specialtyStore\", specialtyStore);",
+                    "console.log(\"testStore\", testStore);",
+                    "",
+                    "// Get the specialty index picked in the view",
+                    "specialtyIdx = specialtyStore.findBy(function (record) {",
+                    "    console.log(\"Procesing insed findBy: record.data.name:\", record.data.name);",
+                    "    return record.data.id == newValue;",
+                    "});",
+                    "",
+                    "//Clear all filters on the testStore",
+                    "testStore.clearFilter(true);",
+                    "",
+                    "// Gets the specialty name",
+                    "specialtyName=specialtyStore.getAt(specialtyIdx).data.name;",
+                    "console.log(\"-------------------------------------------\");",
+                    "console.log(\"Specialty Selected:\", specialtyName);",
+                    "",
+                    "// Filters the Test store to get only the records mached with the specialty selected.",
+                    "// Use the function for each record in the store and return only records needed",
+                    "testStore.clearFilter(true);",
+                    "testStore.filter(function (record) {",
+                    "",
+                    "    var arr = record.data.specialty, continuar = false;",
+                    "    console.log(\"Test Name:\", record.data.name);",
+                    "    for(var i=0; i<arr.length; i++) {",
+                    "        console.log(\" >> Specialty proc:\", arr[i].name);",
+                    "        if (arr[i].name == specialtyName) {",
+                    "            continuar = true;",
+                    "        }",
+                    "    }",
+                    "    return continuar;",
+                    "}",
+                    "",
+                    ");",
+                    "",
+                    "",
+                    ""
+                ],
+                "name": "change",
+                "designer|targetType": "Ext.field.Select",
+                "designer|controlQuery": "testsbyspecialty [name=specialtyPicker]",
+                "designer|userClassName": "onSelectfieldChange"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen8588",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onListItemTap",
+                "implHandler": [
+                    "console.log(\"The Test Detail item tap:\", record.data.name );",
+                    "",
+                    "dataview.up('physiciannavview').push({",
+                    "        xtype : 'testdetail',",
+                    "        title : 'Test Detail',",
+                    "        data: record.getData()",
+                    "});",
+                    ""
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "testsbyspecialty [name=TestsBySpecialtyList]",
+                "designer|userClassName": "onListItemTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

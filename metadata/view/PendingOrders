@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen4986",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "html": "This is the test content",
+        "id": null,
+        "styleHtmlContent": true,
+        "tpl": "Pending Orders view",
+        "scrollable": "vertical",
+        "designer|userClassName": "PendingOrders",
+        "designer|userAlias": "pendingorders"
+    },
+    "customConfigs": [],
+    "designerId": "fbac9606-461e-4c94-a7dd-af09176c19f9",
+    "$viewOrder": 13,
+    "expanded": true
+}
