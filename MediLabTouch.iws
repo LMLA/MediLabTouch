@@ -2,58 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="59451f69-20e2-47a4-bf0d-1849ca95a9eb" name="Default" comment="" />
-    <list default="true" id="a111d8aa-185e-478c-92b8-17593cba86d3" name="MLT-20 Merge Condition and Disease domain classes" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MediLabTouch.iws" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controller/TestsByDisease.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/DiseaseModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/TestTempModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store/DiseaseStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/TestsByDisease.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Disease.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/controller/TestsByDisease" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/model/DiseaseModel" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/model/TestTempModel" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/store/DiseaseStore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/store/TestTemp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/view/MyList" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metadata/view/TestsByDisease" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediLabTouch.ipr" afterPath="$PROJECT_DIR$/MediLabTouch.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediLabTouch.xds" afterPath="$PROJECT_DIR$/MediLabTouch.xds" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/PhysicianMenu.js" afterPath="$PROJECT_DIR$/app/controller/PhysicianMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/TestSearch.js" afterPath="$PROJECT_DIR$/app/controller/TestSearch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/TestModel.js" afterPath="$PROJECT_DIR$/app/model/TestModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/TestMenuArrayStore.js" afterPath="$PROJECT_DIR$/app/store/TestMenuArrayStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/PhysicianTabPanel.js" afterPath="$PROJECT_DIR$/app/view/PhysicianTabPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/TestsByName.js" afterPath="$PROJECT_DIR$/app/view/TestsByName.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/Test.json" afterPath="$PROJECT_DIR$/data/Test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/Application" afterPath="$PROJECT_DIR$/metadata/Application" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/LoginFormController" afterPath="$PROJECT_DIR$/metadata/controller/LoginFormController" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/PhysicianMenu" afterPath="$PROJECT_DIR$/metadata/controller/PhysicianMenu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/TestByName" afterPath="$PROJECT_DIR$/metadata/controller/TestByName" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/TestSearch" afterPath="$PROJECT_DIR$/metadata/controller/TestSearch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/TestsByCondition" afterPath="$PROJECT_DIR$/metadata/controller/TestsByCondition" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/TestsByKeyWord" afterPath="$PROJECT_DIR$/metadata/controller/TestsByKeyWord" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/TestsBySpecialty" afterPath="$PROJECT_DIR$/metadata/controller/TestsBySpecialty" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/model/ConditionModel" afterPath="$PROJECT_DIR$/metadata/model/ConditionModel" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/model/SpecialtyModel" afterPath="$PROJECT_DIR$/metadata/model/SpecialtyModel" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/model/TestModel" afterPath="$PROJECT_DIR$/metadata/model/TestModel" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/store/ConditionStore" afterPath="$PROJECT_DIR$/metadata/store/ConditionStore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/store/SpecialtyStore" afterPath="$PROJECT_DIR$/metadata/store/SpecialtyStore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/store/TestMenuArrayStore" afterPath="$PROJECT_DIR$/metadata/store/TestMenuArrayStore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/store/TestStore" afterPath="$PROJECT_DIR$/metadata/store/TestStore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/NewOrder" afterPath="$PROJECT_DIR$/metadata/view/NewOrder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/PatientList" afterPath="$PROJECT_DIR$/metadata/view/PatientList" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/PendingOrders" afterPath="$PROJECT_DIR$/metadata/view/PendingOrders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/PhysicianMenu" afterPath="$PROJECT_DIR$/metadata/view/PhysicianMenu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/PhysicianNavView" afterPath="$PROJECT_DIR$/metadata/view/PhysicianNavView" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/PhysicianTabPanel" afterPath="$PROJECT_DIR$/metadata/view/PhysicianTabPanel" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/TestDetail" afterPath="$PROJECT_DIR$/metadata/view/TestDetail" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/TestSearch" afterPath="$PROJECT_DIR$/metadata/view/TestSearch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/TestsByCondition" afterPath="$PROJECT_DIR$/metadata/view/TestsByCondition" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/TestsByKeyword" afterPath="$PROJECT_DIR$/metadata/view/TestsByKeyword" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/TestsByName" afterPath="$PROJECT_DIR$/metadata/view/TestsByName" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/TestsBySpecialty" afterPath="$PROJECT_DIR$/metadata/view/TestsBySpecialty" />
+    <list default="true" id="a111d8aa-185e-478c-92b8-17593cba86d3" name="MLT-20 Merge Condition and Disease domain classes" comment="MLT-20 Merge Condition and Disease domain classes">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MediLabTouch.iws" afterPath="$PROJECT_DIR$/MediLabTouch.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/Condition.json" afterPath="$PROJECT_DIR$/data/Condition.json" />
     </list>
     <ignored path="MediLabTouch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,6 +60,19 @@
   <component name="FavoritesManager">
     <favorites_list name="MediLabTouch" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Condition.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/Condition.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="761" column="33" selection-start="15548" selection-end="15548" vertical-scroll-proportion="0.60117304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -124,6 +88,7 @@
         <option value="$PROJECT_DIR$/app/view/NewOrder.js" />
         <option value="$PROJECT_DIR$/app/store/ConditionStore.js" />
         <option value="$PROJECT_DIR$/app/controller/TestByName.js" />
+        <option value="$PROJECT_DIR$/data/Condition.json" />
       </list>
     </option>
   </component>
@@ -161,19 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,6 +142,33 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="MediLabTouch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediLabTouch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediLabTouch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -210,8 +189,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -234,6 +213,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -263,24 +260,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -388,7 +367,7 @@
       <created>1341418104931</created>
       <option name="issue" value="true" />
       <option name="type" value="BUG" />
-      <updated>1341593048517</updated>
+      <updated>1341593143290</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers>
@@ -405,10 +384,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="22" width="1782" height="963" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56294537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56294537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -469,7 +448,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="MLT-15 Generate views and controller for TestPortfolio By Specialty&#10;MLT-16 Generate views and controller for TestPortfolio By Condition&#10;MLT-17 Generate views and controller for TestPortfolio By Disease&#10;MLT-18 Generate views and controller for TestPortfolio By Keyword&#10;MLT-19 Test portfolio list shows a back button that doesn't work as expected" />
+    <option name="LAST_COMMIT_MESSAGE" value="MLT-20 Merge Condition and Disease domain classes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -484,6 +463,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Changes to add navigation using push method" />
     <MESSAGE value="MLT-15 Generate views and controller for TestPortfolio By Specialty&#10;MLT-16 Generate views and controller for TestPortfolio By Condition&#10;MLT-17 Generate views and controller for TestPortfolio By Disease&#10;MLT-18 Generate views and controller for TestPortfolio By Keyword&#10;MLT-19 Test portfolio list shows a back button that doesn't work as expected" />
+    <MESSAGE value="MLT-20 Merge Condition and Disease domain classes" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -549,6 +529,13 @@
     <entry file="file://$PROJECT_DIR$/app/view/TestsByName.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="38" selection-start="1318" selection-end="1333" vertical-scroll-proportion="0.70797545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Condition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="761" column="33" selection-start="15548" selection-end="15548" vertical-scroll-proportion="0.60117304">
           <folding />
         </state>
       </provider>

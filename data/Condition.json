@@ -1,22 +1,764 @@
 [
-
     {
-        "class": "medilabcore.Condition",
-        "id": 1,
-        "name": "Diabetes",
-        "test": [ ]
+        "class":"medilabcore.Condition",
+        "id":1,
+        "name":"Conditions/Diseases",
+        "tests":[]
     },
     {
-        "class": "medilabcore.Condition",
-        "id": 2,
-        "name": "Osteoporosis",
-        "test": [ ]
+        "class":"medilabcore.Condition",
+        "id":2,
+        "name":"Acidosis/Alkalosis",
+        "tests":[]
     },
     {
-        "class": "medilabcore.Condition",
-        "id": 3,
-        "name": "Pregnancy",
-        "test": [ ]
+        "class":"medilabcore.Condition",
+        "id":3,
+        "name":"ACS",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":4,
+        "name":"Addison's Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":5,
+        "name":"Adrenal Insufficiency",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":6,
+        "name":"Alcoholism",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":7,
+        "name":"Allergies",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":8,
+        "name":"Alzheimer's Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":9,
+        "name":"Anemia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":10,
+        "name":"Angina",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":11,
+        "name":"Ankylosing Spondylitis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":12,
+        "name":"Anthrax",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":13,
+        "name":"Antiphospholipid Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":14,
+        "name":"Arthritis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":15,
+        "name":"Asthma",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":16,
+        "name":"Autoimmune Disorders",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":17,
+        "name":"Bioterrorism Agents",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":18,
+        "name":"Bleeding Disorders",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":19,
+        "name":"Bone Marrow Disorders",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":20,
+        "name":"BPH",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":21,
+        "name":"Breast Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":22,
+        "name":"Celiac Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":23,
+        "name":"Cervical Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":24,
+        "name":"CFS",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":25,
+        "name":"CHF",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":26,
+        "name":"Chlamydia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":27,
+        "name":"Colon Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":28,
+        "name":"Conn's Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":29,
+        "name":"Cushing's Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":30,
+        "name":"CVD",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":31,
+        "name":"Cystic Fibrosis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":32,
+        "name":"Diabetes",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":33,
+        "name":"Diarrhea",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":34,
+        "name":"DIC",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":35,
+        "name":"Down Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":36,
+        "name":"Encephalitis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":37,
+        "name":"Endocrine Syndromes",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":38,
+        "name":"Epilepsy",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":39,
+        "name":"Excessive Clotting Disorders",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":40,
+        "name":"Fibromyalgia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":41,
+        "name":"Folate Deficiency",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":42,
+        "name":"Fungal Infections",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":43,
+        "name":"Gonorrhea",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":44,
+        "name":"Gout",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":45,
+        "name":"Graves Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":46,
+        "name":"Guillain-Barre Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":47,
+        "name":"Hashimoto Thyroiditis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":48,
+        "name":"Heart Attack",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":49,
+        "name":"Heart Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":50,
+        "name":"Hemochromatosis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":51,
+        "name":"Hepatitis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":52,
+        "name":"Herpes",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":53,
+        "name":"HIV",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":54,
+        "name":"HPV",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":55,
+        "name":"Huntington Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":56,
+        "name":"Hypertension",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":57,
+        "name":"Hyperthyroidism",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":58,
+        "name":"Hypothyroidism",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":59,
+        "name":"Infertility",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":60,
+        "name":"Inflammatory Bowel Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":61,
+        "name":"Influenza",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":62,
+        "name":"Insulin Resistance",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":63,
+        "name":"Jaundice",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":64,
+        "name":"Juvenile Rheumatoid Arthritis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":65,
+        "name":"Kidney Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":66,
+        "name":"Lead Poisoning",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":67,
+        "name":"Leukemia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":68,
+        "name":"Liver Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":69,
+        "name":"Lung Diseases",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":70,
+        "name":"Lupus",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":71,
+        "name":"Lyme Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":72,
+        "name":"Lymphoma",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":73,
+        "name":"Malabsorption",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":74,
+        "name":"Malaria",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":75,
+        "name":"Malnutrition",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":76,
+        "name":"Meningitis and Encephalitis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":77,
+        "name":"Menopause",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":78,
+        "name":"Metabolic Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":79,
+        "name":"MRSA",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":80,
+        "name":"Multiple Myeloma",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":81,
+        "name":"Multiple Sclerosis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":82,
+        "name":"Myeloproliferative Disorders",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":83,
+        "name":"Neural Tube Defects",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":84,
+        "name":"Neuropathy",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":85,
+        "name":"Nontuberculous Mycobacteria",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":86,
+        "name":"Osteoarthritis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":87,
+        "name":"Osteoporosis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":88,
+        "name":"Ovarian Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":89,
+        "name":"Pancreatic Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":90,
+        "name":"Pancreatic Diseases",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":91,
+        "name":"Pancreatic Insufficiency",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":92,
+        "name":"Pancreatitis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":93,
+        "name":"PCOS",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":94,
+        "name":"Peptic Ulcer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":95,
+        "name":"PID",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":96,
+        "name":"Pituitary Disorders",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":97,
+        "name":"Pneumonia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":98,
+        "name":"Porphyria",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":99,
+        "name":"Pregnancy",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":100,
+        "name":"Prostate Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":101,
+        "name":"Proteinuria",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":102,
+        "name":"Reactive Arthritis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":103,
+        "name":"Rheumatoid Arthritis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":104,
+        "name":"Sarcoidosis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":105,
+        "name":"Scleroderma",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":106,
+        "name":"Sepsis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":107,
+        "name":"Septic Arthritis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":108,
+        "name":"Shingles",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":109,
+        "name":"Sickle Cell Anemia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":110,
+        "name":"Sjögren Syndrome",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":111,
+        "name":"Staph Wound Infections",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":112,
+        "name":"STDs",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":113,
+        "name":"Stroke",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":114,
+        "name":"Syphilis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":115,
+        "name":"Testicular Cancer",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":116,
+        "name":"Thalassemia",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":117,
+        "name":"Thyroid Diseases",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":118,
+        "name":"Travelers' Diseases",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":119,
+        "name":"Trichomonas",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":120,
+        "name":"Tuberculosis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":121,
+        "name":"UTI",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":122,
+        "name":"Vasculitis",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":123,
+        "name":"Vitamin B12 Deficiency",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":124,
+        "name":"Vitamin K Deficiency",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":125,
+        "name":"West Nile Virus",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":126,
+        "name":"Wilson Disease",
+        "tests":[]
+    },
+    {
+        "class":"medilabcore.Condition",
+        "id":127,
+        "name":"Wound and Skin Infections",
+        "tests":[]
     }
-
 ]
