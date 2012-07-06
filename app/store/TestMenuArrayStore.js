@@ -34,9 +34,6 @@ Ext.define('MediLab.store.TestMenuArrayStore', {
             },
             {
                 option: 'By Condition'
-            },
-            {
-                option: 'By Disease'
             }
         ],
         model: 'MediLab.model.TestMenuModel',

@@ -12,9 +12,16 @@
         "layout": "fit",
         "scrollable": "false",
         "designer|userClassName": "TestsByName",
-        "designer|userAlias": "testsbyname"
+        "designer|userAlias": "testsbyname",
+        "name": "TestsByName"
     },
-    "customConfigs": [],
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "name",
+            "type": "string"
+        }
+    ],
     "designerId": "3bf13328-726b-4c50-b0a1-b4407655fa5d",
     "$viewOrder": 5,
     "expanded": true,
@@ -32,7 +39,6 @@
                 "docked": "top",
                 "height": "100%",
                 "id": "",
-                "ui": "round",
                 "width": "100%",
                 "emptyText": "There is no tests",
                 "itemTpl": "<div>{name}</div>",

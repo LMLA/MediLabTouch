@@ -62,20 +62,6 @@
                     "name": "Hematology"
                 }
             ],
-            "disease": [
-                {
-                    "name": "Liver disease"
-                },
-                {
-                    "name": "Hyponatremia"
-                },
-                {
-                    "name": "Diabetes"
-                },
-                {
-                    "name": "Kidney disorders"
-                }
-            ],
             "condition": [
                 {
                     "name": "Pregnancy"
@@ -149,11 +135,6 @@
                     "name": "Hematology"
                 }
             ],
-            "disease": [
-                {
-                    "name": "Liver disease"
-                }
-            ],
             "condition": [
                 {
                     "name": "Pregnancy"
@@ -224,14 +205,6 @@
                     "name": "Cardiology"
                 }
             ],
-            "disease": [
-				{
-                	"name": "Diabetes"
-            	},
-            	{
-                	"name": "Kidney disorders"
-            	}
-             ],
             "condition": [ 
             	{
                 	"name": "Diabetes"
@@ -303,15 +276,6 @@
                 }
             ],
             
-            "disease": [ 
-            	{
-                	"name": "Diabetes"
-            		},
-            	{
-                	"name": "Kidney disorders"
-            	}
-
-			],
             "condition":  [ 
             	{
                 	"name": "Diabetes"

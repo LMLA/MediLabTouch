@@ -23,19 +23,15 @@ Ext.application({
         'LoginMenuModel',
         'TestModel',
         'TestMenuModel',
-        'TestTempModel',
         'SpecialtyModel',
-        'ConditionModel',
-        'DiseaseModel'
+        'ConditionModel'
     ],
     stores: [
         'LoginMenuArrayStore',
         'PhysicianMenuArrayStore',
         'TestMenuArrayStore',
-        'TestTemp',
         'TestStore',
         'SpecialtyStore',
-        'DiseaseStore',
         'ConditionStore'
     ],
     views: [
@@ -48,12 +44,10 @@ Ext.application({
         'PhysicianNavView',
         'TestDetail',
         'TestSearch',
-        'MyList',
         'TestsBySpecialty',
         'PendingOrders',
         'PatientList',
         'NewOrder',
-        'TestsByDisease',
         'TestsByCondition',
         'PhysicianMenu',
         'TestsByName'
@@ -66,8 +60,7 @@ Ext.application({
         'TestByName',
         'TestsByKeyWord',
         'TestsBySpecialty',
-        'TestsByCondition',
-        'TestsByDisease'
+        'TestsByCondition'
     ],
 
     launch: function() {
@@ -87,6 +80,15 @@ Ext.application({
 
 
 
+    },
+
+    showViewByPush: function(callerDataView, navigationView, xtypeToShow, title) {
+        console.log (xtypeToShow + "  view pushed by itemtap event handler ");
+
+        callerDataView.up(navigationView).push({
+            xtype : xtypeToShow,
+            title : title
+        });
     }
 
 });

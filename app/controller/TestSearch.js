@@ -29,46 +29,47 @@ Ext.define('MediLab.controller.TestSearch', {
     },
 
     onListItemTap: function(dataview, index, target, record, e, options) {
-        //alert("The Test Portfolio list has been disclosed");
+
+
+        var store = Ext.getStore("testStore");
+        store.clearFilter(true);
+
         switch(index) {
             case 0:
             //Ext.Viewport.setActiveItem({xtype: 'testbynamelist'});
 
-            console.log ("TestsByName view pushed by itemtap event handler " + index);
 
-            Ext.getStore('testStore').load();
-            dataview.up('physiciannavview').push({
-                xtype : 'testsbyname',
-                title : 'Tests By Name'
-            });
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'testsbyname',
+                title = 'Tests By Name';
 
 
+
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
 
             break;
 
             case 1:
-            // Ext.Viewport.setActiveItem({xtype: 'bykeywordlist'});
 
-            console.log ("TestsByKeyword view pushed by itemtap event handler " + index);
 
-            dataview.up('physiciannavview').push({
-                xtype : 'testsbykeyword',
-                title : 'Tests By Keyword'
-            });
 
+
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'testsbykeyword',
+                title = 'Tests By Keyword';
+
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
 
             break;
 
             case 2:
 
 
-            console.log ("TestsBySpecialty view pushed by itemtap event handler " + index);
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'testsbyspecialty',
+                title = 'Tests By Specialty';
 
-            dataview.up('physiciannavview').push({
-                xtype : 'testsbyspecialty',
-                title : 'Tests By Specialty'
-            });
-
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
 
 
             break;
@@ -76,24 +77,23 @@ Ext.define('MediLab.controller.TestSearch', {
             case 3:
 
 
-            console.log ("TestsByCondition view pushed by itemtap event handler " + index);
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'testsbycondition',
+                title = 'Tests By Condition';
 
-            dataview.up('physiciannavview').push({
-                xtype : 'testsbycondition',
-                title : 'Tests By Condition'
-            });
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
+
+
             break;   
 
             case 4:
-            // Ext.Viewport.setActiveItem({xtype: 'bydiseaselist'});
 
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'testsbydisease',
+                title = 'Tests By Disease';
 
-            console.log ("TestsByDisease view pushed by itemtap event handler " + index);
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
 
-            dataview.up('physiciannavview').push({
-                xtype : 'testsbydisease',
-                title : 'Tests By Disease'
-            });
 
 
         }

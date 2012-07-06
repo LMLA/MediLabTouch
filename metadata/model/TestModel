@@ -12,8 +12,8 @@
     },
     "customConfigs": [],
     "designerId": "ae9c5cf8-07ad-4751-b5e5-20fad83694b6",
-    "$viewOrder": 4,
-    "expanded": false,
+    "$viewOrder": 3,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen31486",
@@ -167,21 +167,6 @@
             "userConfig": {
                 "name": "specialty",
                 "designer|userClassName": "MyField12"
-            },
-            "customConfigs": [],
-            "expanded": true
-        },
-        {
-            "id": "ExtBox1-ext-gen4888",
-            "type": "datafield",
-            "reference": {
-                "name": "fields",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "name": "disease",
-                "designer|userClassName": "MyField13"
             },
             "customConfigs": [],
             "expanded": true

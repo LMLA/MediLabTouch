@@ -34,6 +34,7 @@ Ext.define('MediLab.view.PhysicianTabPanel', {
         },
         tabBar: {
             docked: 'bottom',
+            name: 'PhysicianTabPanelTabBar',
             layout: {
                 align: 'center',
                 pack: 'center',

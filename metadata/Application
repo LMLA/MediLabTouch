@@ -12,19 +12,15 @@
             "LoginMenuModel",
             "TestModel",
             "TestMenuModel",
-            "TestTempModel",
             "SpecialtyModel",
-            "ConditionModel",
-            "DiseaseModel"
+            "ConditionModel"
         ],
         "stores": [
             "LoginMenuArrayStore",
             "PhysicianMenuArrayStore",
             "TestMenuArrayStore",
-            "TestTemp",
             "TestStore",
             "SpecialtyStore",
-            "DiseaseStore",
             "ConditionStore"
         ],
         "views": [
@@ -37,12 +33,10 @@
             "PhysicianNavView",
             "TestDetail",
             "TestSearch",
-            "MyList",
             "TestsBySpecialty",
             "PendingOrders",
             "PatientList",
             "NewOrder",
-            "TestsByDisease",
             "TestsByCondition",
             "PhysicianMenu",
             "TestsByName"
@@ -55,8 +49,7 @@
             "TestByName",
             "TestsByKeyWord",
             "TestsBySpecialty",
-            "TestsByCondition",
-            "TestsByDisease"
+            "TestsByCondition"
         ]
     },
     "customConfigs": [],
@@ -97,6 +90,35 @@
             },
             "customConfigs": [],
             "iconCls": "icon-basic-function",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen73550",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "showViewByPush",
+                "designer|params": [
+                    "callerDataView",
+                    "navigationView",
+                    "xtypeToShow",
+                    "title"
+                ],
+                "implHandler": [
+                    "console.log (xtypeToShow + \"  view pushed by itemtap event handler \");",
+                    "",
+                    "callerDataView.up(navigationView).push({",
+                    "    xtype : xtypeToShow,",
+                    "    title : title",
+                    "});"
+                ],
+                "designer|userClassName": "showViewByPush"
+            },
+            "customConfigs": [],
             "expanded": true
         }
     ]

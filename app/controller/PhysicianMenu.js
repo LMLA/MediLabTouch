@@ -42,64 +42,53 @@ Ext.define('MediLab.controller.PhysicianMenu', {
             case 0:
 
 
-            console.log ("Patientslist view pushed by itemtap event handler " + index);
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'patientlist',
+                title = 'Patient List';
 
-            dataview.up('physiciannavview').push({
-                xtype : 'patientlist',
-                title : 'Patient List'
-            });
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
+
+
 
 
             break;
 
             case 1:
 
-            console.log ("NewOrder view pushed by itemtap event handler " + index);
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'neworder',
+                title = 'New Order';
 
-            dataview.up('physiciannavview').push({
-                xtype : 'neworder',
-                title : 'New Order'
-            });
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
+
 
 
             break;
 
             case 2:
 
-            console.log ("PendingOrders view pushed by itemtap event handler " + index);
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'pendingorders',
+                title = 'Physician Pending orders';
 
-            dataview.up('physiciannavview').push({
-                xtype : 'pendingorders',
-                title : 'Physician Pending orders'
-            });
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
+
 
             break;
 
             case 3:
 
-            console.log ("testMenuArrayStore view pushed by itemtap event handler " + index);
+            var navigationView = 'physiciannavview',
+                xtypeToShow = 'testsearch',
+                title = 'Test Search Menu';
 
-            Ext.getStore('testMenuArrayStore').load();
-
-            dataview.up('physiciannavview').push({
-                xtype : 'testsearch',
-                title : 'Test Search Menu'
-            });
-
+            MediLab.app.showViewByPush(dataview, navigationView, xtypeToShow, title);
 
             break;
 
             case 4:
 
             console.log ("LoginFormPanel view pushed by itemtap event handler " + index);
-            /*
-            Ext.getStore('loginMenuArrayStore').load();
-
-            dataview.up('physiciannavview').push({
-            xtype : 'loginformpanel',
-            title : 'Physician Menu'
-            });
-            */   
             Ext.Viewport.setActiveItem({xtype: 'loginformpanel'});
         }
 

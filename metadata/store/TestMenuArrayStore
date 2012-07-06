@@ -8,7 +8,7 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
-        "data": "[ {option: \"By Name\"}, {option: \"By Keyword\"}, {option: \"By Specialty\"},  {option: \"By Condition\"}, {option: \"By Disease\"}  ]\n",
+        "data": "[ {option: \"By Name\"}, {option: \"By Keyword\"}, {option: \"By Specialty\"},  {option: \"By Condition\"} ]\n",
         "model": "TestMenuModel",
         "storeId": "testMenuArrayStore",
         "designer|userClassName": "TestMenuArrayStore",

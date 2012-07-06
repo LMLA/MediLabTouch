@@ -47,9 +47,6 @@ Ext.define('MediLab.model.TestModel', {
                 name: 'specialty'
             },
             {
-                name: 'disease'
-            },
-            {
                 name: 'condition'
             }
         ]

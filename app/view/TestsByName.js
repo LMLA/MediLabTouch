@@ -24,6 +24,7 @@ Ext.define('MediLab.view.TestsByName', {
             type: 'fit'
         },
         scrollable: false,
+        name: 'TestsByName',
         items: [
             {
                 xtype: 'list',
@@ -31,7 +32,6 @@ Ext.define('MediLab.view.TestsByName', {
                 docked: 'top',
                 height: '100%',
                 id: '',
-                ui: 'round',
                 width: '100%',
                 emptyText: 'There is no tests',
                 itemTpl: [

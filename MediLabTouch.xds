@@ -139,22 +139,6 @@
             ],
             "className": "TestSearch"
         },
-        "353275eb-f383-4c91-b37e-219972bd4861": {
-            "paths": [
-                "metadata/store/TestTemp",
-                "app/store/override/TestTemp.js",
-                "app/store/TestTemp.js"
-            ],
-            "className": "TestTemp"
-        },
-        "b457dcf3-44d4-462b-8e42-c118888fb4a4": {
-            "paths": [
-                "metadata/model/TestTempModel",
-                "app/model/override/TestTempModel.js",
-                "app/model/TestTempModel.js"
-            ],
-            "className": "TestTempModel"
-        },
         "2be41abc-c129-46a5-9688-e9122b0d157a": {
             "paths": [
                 "metadata/controller/TestByName",
@@ -186,14 +170,6 @@
                 "app/model/ConditionModel.js"
             ],
             "className": "ConditionModel"
-        },
-        "b591cecf-75bf-4805-b5fd-fc5f57547d94": {
-            "paths": [
-                "metadata/model/DiseaseModel",
-                "app/model/override/DiseaseModel.js",
-                "app/model/DiseaseModel.js"
-            ],
-            "className": "DiseaseModel"
         },
         "31f31eef-46ea-451e-a396-92a581bebe79": {
             "paths": [
@@ -243,14 +219,6 @@
             ],
             "className": "TestSearch"
         },
-        "8c42cded-c8fb-4a0a-92ef-a173ca647c83": {
-            "paths": [
-                "metadata/view/MyList",
-                "app/view/override/MyList.js",
-                "app/view/MyList.js"
-            ],
-            "className": "MyList"
-        },
         "1b05e254-b8b1-4e68-b63d-f52640b97ab8": {
             "paths": [
                 "metadata/view/TestsBySpecialty",
@@ -291,22 +259,6 @@
             ],
             "className": "NewOrder"
         },
-        "269e37e9-295f-4e7b-8077-0a2f33941656": {
-            "paths": [
-                "metadata/view/TestsByDisease",
-                "app/view/override/TestsByDisease.js",
-                "app/view/TestsByDisease.js"
-            ],
-            "className": "TestsByDisease"
-        },
-        "6265469d-11e1-47dd-9a6c-6f9786b0aa5e": {
-            "paths": [
-                "metadata/store/DiseaseStore",
-                "app/store/override/DiseaseStore.js",
-                "app/store/DiseaseStore.js"
-            ],
-            "className": "DiseaseStore"
-        },
         "dbc6ba96-08e4-4657-a024-d5640a97c359": {
             "paths": [
                 "metadata/view/TestsByCondition",
@@ -330,14 +282,6 @@
                 "app/controller/TestsByCondition.js"
             ],
             "className": "TestsByCondition"
-        },
-        "568657af-6c81-48b9-84ec-2ba0f360ab50": {
-            "paths": [
-                "metadata/controller/TestsByDisease",
-                "app/controller/override/TestsByDisease.js",
-                "app/controller/TestsByDisease.js"
-            ],
-            "className": "TestsByDisease"
         },
         "29ec6304-088a-41f9-9f14-e921b0cb1c30": {
             "paths": [

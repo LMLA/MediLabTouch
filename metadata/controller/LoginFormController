@@ -44,7 +44,7 @@
                 "implHandler": [
                     "//alert(\"The Login Menu list has been disclosed\");",
                     "",
-                    " //Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);",
+                    "//Ext.Viewport.remove(Ext.Viewport.getActiveItem(), true);",
                     "//your_container(your_container.getActiveItem(), false);",
                     "",
                     "switch(index) {",

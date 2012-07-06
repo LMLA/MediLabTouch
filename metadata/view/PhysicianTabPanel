@@ -30,10 +30,17 @@
             "userConfig": {
                 "docked": "bottom",
                 "designer|userClassName": "MyTabBar",
+                "name": "PhysicianTabPanelTabBar",
                 "container|align": "center",
                 "container|pack": "center"
             },
-            "customConfigs": [],
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
             "iconCls": "icon-tab-bar",
             "expanded": true
         },
@@ -46,6 +53,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "itemId": null,
                 "title": "Physician",
                 "iconCls": "home"
             },
